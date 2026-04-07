@@ -25,7 +25,7 @@ El proyecto consistió en la ingesta de datos provenientes de archivos .xlsx y .
 **Resultado**: Dashboard básico con datos limpios
 
 
-<!-- ![Sprint 1 - Dashboard](docs/screenshots/dashboard_sheets.png) -->
+![Sprint 1 - Dashboard](docs/screenshots/dashboard_sheets.png)
 
 **Qué aprendí**: La importancia crítica de la integridad de los datos antes del análisis. Un archivo con datos mezclados, formatos inconsistentes y registros desordenados es imposible de mantener. Dedicar tiempo a estructurar y limpiar la información es el único camino para obtener resultados confiables en un dashboard.
 
@@ -36,8 +36,8 @@ Nuevos archivos, más datos, más complejidad: movimientos contables, plan de cu
 **Herramientas**: Looker Studio + Google Sheets + Excel
 **Resultado**: Dashboard con KPIs, filtros interactivos y visualizaciones
 
-<!-- ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/proveedores_dashboard.png) -->
-<!-- ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/donantes_dashboard.png) -->
+![Sprint 2 - Looker Studio Dashboard](docs/screenshots/proveedores_dashboard.png)
+![Sprint 2 - Looker Studio Dashboard](docs/screenshots/donantes_dashboard.png)
 
 
 **Decisiones de visualización**:
