@@ -1,0 +1,500 @@
+Numero,Nombre,Tipo,Correo_electronico,Telefono,Razon_Social,Tipo_Contribuyente,CUIT,Alta,Baja,Activo,Frecuencia,Fecha_donacion,Importe,Nro_Cuenta,Pais
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2022-10-04,281342,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2022-12-04,383818,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2023-02-04,217763,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2023-04-04,424093,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2023-06-04,191399,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2023-08-04,390950,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2023-10-04,797809,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2023-12-04,596040,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2024-02-04,683505,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2024-04-04,627181,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2024-06-04,659415,404100,Brasil
+D00108,Iniciativa Solidaria,Empresa,iniciativasolidaria@mail.com,5557477433,SAS,Monotributista,24-91224120-6,2022-10-04,2024-08-20,NO,Bimestral,2024-08-04,758508,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2019-08-09,183574,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2019-10-15,714947,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2019-12-20,249584,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2020-02-05,730842,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2020-04-12,280468,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2020-06-18,166865,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2020-08-22,655577,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2020-10-10,686866,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2020-12-25,492556,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2021-02-07,470537,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2021-04-14,143318,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2021-06-19,387405,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2021-08-23,748110,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2021-10-11,606837,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2021-12-27,732998,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2022-02-08,433172,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2022-04-16,65198,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2022-06-21,505685,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2022-08-24,547634,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2022-10-13,662880,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2022-12-29,257499,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2023-02-06,567511,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2023-04-17,78589,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2023-06-20,778799,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2023-08-26,402281,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2023-10-12,368134,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2023-12-28,238802,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2024-02-09,739084,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2024-04-18,578868,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2024-06-22,481653,404100,Argentina
+D00109,Innovatech Solutions,Estado,innovatechsolutions@mail.com,5452632378,SA,Exento,24-56588769-6,2019-08-09,,SI,Bimestral,2024-08-30,676243,404100,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2020-05-02,101418,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2020-08-03,153871,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2020-11-05,141673,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2021-02-07,130672,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2021-05-04,195011,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2021-08-06,199470,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2021-11-03,196540,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2022-02-09,167308,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2022-05-05,194895,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2022-08-07,157365,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2022-11-04,156809,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2023-02-06,168805,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2023-05-03,175721,403103,Paraguay
+D00110,Apoyo Logistico S.A.,Empresa,apoyologisticosa@mail.com,59550300105,SA,Responsable Inscripto,29-01265476-14,2020-05-02,2024-07-01,NO,Trimestral,2023-08-05,129491,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2019-12-02,766487,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-01-03,356286,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-02-05,72321,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-03-03,512660,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-04-04,235999,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-05-06,188904,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-06-03,183842,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-07-05,70469,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-08-04,207544,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-09-03,483595,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-10-05,226668,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-11-04,285886,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2020-12-02,321539,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-01-03,345181,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-02-05,250534,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-03-04,333984,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-04-06,522252,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-05-03,564381,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-06-05,53611,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-07-04,175471,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-08-06,487451,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-09-03,590151,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-10-05,442684,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-11-04,520747,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2021-12-06,599251,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-01-04,360648,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-02-05,63873,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-03-03,299852,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-04-05,723618,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-05-03,615923,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-06-05,282999,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-07-04,693094,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-08-03,54677,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-09-05,319808,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-10-04,626970,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-11-05,364686,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2022-12-03,631303,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-01-05,274376,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-02-04,128788,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-03-05,256681,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-04-03,480666,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-05-05,482346,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-06-03,488328,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-07-05,262263,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-08-03,356384,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-09-05,544174,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-10-04,149397,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-11-05,675154,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2023-12-03,202733,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-01-05,773286,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-02-04,334462,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-03-03,739298,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-04-05,539067,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-05-03,159307,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-06-05,152701,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-07-04,430624,403103,Paraguay
+D00111,Futuro Corporativo,Empresa,futurocorporativo@mail.com,59553803426,SAS,Monotributista,27-23783266-6,2019-12-02,,SI,Mensual,2024-08-05,148343,403103,Uruguay
+D00112,Global Energies S.A.,Estado,globalenergiess.a.@example.net,59855037127,SA,Responsable Inscripto,25-36901514-8,2019-08-13,,SI,Anual,2019-08-13,385846,404100,Uruguay
+D00112,Global Energies S.A.,Estado,globalenergiess.a.@example.net,59855037127,SA,Responsable Inscripto,25-36901514-8,2019-08-13,,SI,Anual,2020-08-14,750782,404100,Uruguay
+D00112,Global Energies S.A.,Estado,globalenergiess.a.@example.net,59855037127,SA,Responsable Inscripto,25-36901514-8,2019-08-13,,SI,Anual,2021-08-12,409837,404100,Uruguay
+D00112,Global Energies S.A.,Estado,globalenergiess.a.@example.net,59855037127,SA,Responsable Inscripto,25-36901514-8,2019-08-13,,SI,Anual,2022-08-15,747805,404100,Uruguay
+D00112,Global Energies S.A.,Estado,globalenergiess.a.@example.net,59855037127,SA,Responsable Inscripto,25-36901514-8,2019-08-13,,SI,Anual,2023-08-13,260898,404100,Uruguay
+D00112,Global Energies S.A.,Estado,globalenergiess.a.@example.net,59855037127,SA,Responsable Inscripto,25-36901514-8,2019-08-13,,SI,Anual,2024-08-14,558515,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-01-21,706102,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-02-22,254098,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-03-21,76229,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-04-23,628328,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-05-21,486856,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-06-22,298046,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-07-21,171034,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-08-23,587146,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-09-21,417361,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-10-22,279196,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-11-21,706918,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2022-12-23,385281,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-01-21,331280,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-02-22,351957,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-03-21,357979,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-04-23,581485,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-05-21,428123,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-06-22,85345,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-07-21,774305,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-08-23,609982,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-09-21,680131,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-10-22,130889,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-11-21,760502,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2023-12-23,469510,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-01-21,577317,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-02-22,445942,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-03-21,239793,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-04-23,340346,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-05-21,178456,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-06-22,224200,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-07-21,609063,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-08-23,740873,404100,Uruguay
+D00113,Proyecto Gubernamental,Estado,proyectogubernamental@mail.com,59855509219,GOB,Exento,29-75196406-1,2022-01-21,,SI,Mensual,2024-09-01,508753,404100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-01-22,193728,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-02-23,139844,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-03-22,45549,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-04-24,87788,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-05-22,57471,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-06-23,40464,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-07-22,190604,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-08-23,197183,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-09-22,46112,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-10-23,132359,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-11-22,180459,405100,Uruguay
+D00114,Latinoamerica Crece,Estado,latinoamerica_crece@example.com,59855509219,GOB,Exento,27-75193456-1,2020-01-21,2021-12-25,NO,Mensual,2021-12-23,113088,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2020-12-25,180488,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2021-02-10,79065,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2021-04-07,184185,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2021-06-19,65000,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2021-08-05,181635,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2021-10-22,66423,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2021-12-15,123625,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2022-02-03,89993,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2022-04-21,11747,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2022-06-09,43728,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2022-08-26,108254,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2022-10-14,53331,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2022-12-01,156418,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2023-01-19,172159,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2023-03-06,196425,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2023-05-22,43469,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2023-07-10,31692,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2023-09-25,92066,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2023-11-13,121690,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2023-12-30,87280,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2024-02-17,85785,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2024-04-04,149833,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2024-05-22,86746,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2024-07-10,66711,405100,Brasil
+D00115,Mercado Popular,Campaña,mercadopopular@example.com,5555509219,SAS,Monotributista,24-34193456-2,2020-12-22,,SI,Bimestral,2024-08-28,40287,405100,Perú
+D00116,Universidad del Sur,Empresa,universidadds@mail.com,5155509220,SA,Responsable Inscripto,29-38793456-3,2018-12-23,,SI,Anual,2018-12-23,72299,403103,Perú
+D00116,Universidad del Sur,Empresa,universidadds@mail.com,5155509220,SA,Responsable Inscripto,29-38793456-3,2018-12-23,,SI,Anual,2019-10-23,63458,403103,Perú
+D00116,Universidad del Sur,Empresa,universidadds@mail.com,5155509220,SA,Responsable Inscripto,29-38793456-3,2018-12-23,,SI,Anual,2020-11-15,173463,403103,Perú
+D00116,Universidad del Sur,Empresa,universidadds@mail.com,5155509220,SA,Responsable Inscripto,29-38793456-3,2018-12-23,,SI,Anual,2021-05-12,42590,403103,Perú
+D00116,Universidad del Sur,Empresa,universidadds@mail.com,5155509220,SA,Responsable Inscripto,29-38793456-3,2018-12-23,,SI,Anual,2022-12-23,58332,403103,Perú
+D00116,Universidad del Sur,Empresa,universidadds@mail.com,5155509220,SA,Responsable Inscripto,29-38793456-3,2018-12-23,,SI,Anual,2023-10-23,185679,403103,Perú
+D00116,Universidad del Sur,Empresa,universidadds@mail.com,5155509220,SA,Responsable Inscripto,29-38793456-3,2018-12-23,,SI,Anual,2024-06-01,43675,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-01-24,387885,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-02-24,540813,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-03-24,274968,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-04-24,276867,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-05-24,460149,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-06-24,247913,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-07-24,565616,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-08-24,219966,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-09-24,264022,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-10-24,354871,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-11-24,244865,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2020-12-24,325793,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-01-24,399685,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-02-24,486131,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-03-24,455211,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-04-24,334904,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-05-24,268278,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-06-24,486280,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-07-24,335920,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-08-24,581841,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-09-24,294729,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-10-24,545689,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-11-24,347660,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2021-12-24,416591,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-01-24,572610,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-02-24,317989,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-03-24,477604,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-04-24,484857,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-05-24,299187,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-06-24,361284,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-07-24,375092,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-08-24,378265,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-09-24,398047,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-10-24,529570,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-11-24,572356,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2022-12-24,280450,403103,Uruguay
+D00117,Automoviles Full,Empresa,afull@mail.com,59855509221,SA,Responsable Inscripto,21-38712356-4,2020-01-24,2024-02-02,NO,Mensual,2023-01-24,233279,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2023-01-25,329609,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2023-03-10,280069,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2023-05-18,258235,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2023-07-07,371932,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2023-09-22,488646,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2023-11-14,243430,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2024-01-03,435348,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2024-03-19,540812,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2024-05-12,515890,403103,Venezuela
+D00120,Supermercado Vegano SRL,Empresa,supermercadovegano@mail.com,5855509222,SA,Responsable Inscripto,34-01712356-5,2023-01-25,,SI,Bimestral,2024-07-28,593821,403103,Chile
+D00121,Ministerio de Acción Comunitaria,Estado,accióncomunitaria@mail.com,5655509223,GOB,Exento,34-01712356-6,2018-01-26,,Si,Anual,2018-01-26,243823,404100,Chile
+D00121,Ministerio de Acción Comunitaria,Estado,accióncomunitaria@mail.com,5655509223,GOB,Exento,34-01712356-6,2018-01-26,,Si,Anual,2019-03-15,272276,404100,Chile
+D00121,Ministerio de Acción Comunitaria,Estado,accióncomunitaria@mail.com,5655509223,GOB,Exento,34-01712356-6,2018-01-26,,Si,Anual,2020-06-04,205153,404100,Chile
+D00121,Ministerio de Acción Comunitaria,Estado,accióncomunitaria@mail.com,5655509223,GOB,Exento,34-01712356-6,2018-01-26,,Si,Anual,2021-08-22,218438,404100,Chile
+D00121,Ministerio de Acción Comunitaria,Estado,accióncomunitaria@mail.com,5655509223,GOB,Exento,34-01712356-6,2018-01-26,,Si,Anual,2022-11-11,135999,404100,Chile
+D00121,Ministerio de Acción Comunitaria,Estado,accióncomunitaria@mail.com,5655509223,GOB,Exento,34-01712356-6,2018-01-26,,Si,Anual,2023-12-30,190938,404100,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2018-01-03,66227,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2018-07-15,55300,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2019-01-08,84760,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2019-07-23,16137,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2020-01-12,18448,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2020-07-05,75788,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2021-01-18,24378,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2021-07-27,61986,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2022-01-22,82997,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2022-07-14,30913,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2023-01-07,92208,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2023-07-19,93637,403103,Bolivia
+D00122,El Parque SRL,Empresa,parque@mail.com,59155509224,SRL,Responsable Inscripto,24-78912356-7,2018-01-01,,SI,Semestral,2024-01-02,16927,403103,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-01-02,1121873,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-02-15,220940,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-03-07,570809,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-04-22,408684,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-05-10,451106,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-06-28,442684,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-07-05,404537,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-08-19,374870,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-09-12,496721,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-10-26,455378,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-11-03,329454,405100,Bolivia
+D00123,Merendero Solidario,ONG,solidario@mail.com,59155509225,GOB,Monotributista,24-72582356-8,2021-01-02,,SI,Mensual,2021-12-21,492165,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-02-01,221969,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-03-14,293230,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-04-09,568883,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-05-22,470187,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-06-07,347778,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-07-18,295364,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-08-03,250149,405100,Argentina
+D00124,Soluciones VerdeVida,ONG,ana.solis@verdevida.com,5491112345678,ONG,Monotributista,20-12345678-9,2024-02-01,,SI,Mensual,2024-09-01,473575,405100,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-02-02,35115,403103,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-03-18,43290,403103,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-04-07,60901,403103,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-05-24,92342,403103,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-06-10,17892,403103,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-07-28,63032,403103,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-08-15,29556,403103,Brasil
+D00125,Innovación Global S.A.,Empresa,carlos.martinez@innovacionglobal.com,552198765432,SA,Responsable Inscripto,27-23456789-1,2024-02-02,,SI,Mensual,2024-09-05,42628,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-02-03,64959,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-03-17,45976,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-04-08,173308,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-05-23,225900,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-06-12,244932,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-07-30,506437,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-08-15,234530,403103,Chile
+D00126,Empresas FuturoBrillante,Empresa,laura.perez@futurobrillante.com,56987654321,SAS,Responsable Inscripto,30-34567890-2,2024-02-03,,SI,Mensual,2024-09-05,531085,403103,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-01-04,487746,405100,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-02-18,459222,405100,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-03-07,232185,405100,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-04-22,351798,405100,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-05-10,546208,405100,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-06-26,584457,405100,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-07-15,420123,405100,México
+D00127,Horizonte Ecológico,ONG,juan.rodriguez@horizonteecologico.com,525512345678,ONG,Monotributista,23-45678901-3,2024-01-04,,SI,Mensual,2024-08-05,268596,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-02-05,90795,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-03-20,75887,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-04-08,97534,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-05-25,117968,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-06-12,359060,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-07-30,523200,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-08-15,329953,405100,Colombia
+D00128,Fundación UniCorp,ONG,marta.gonzalez@unicorp.org,573001234567,ONG,Monotributista,33-56789012-4,2024-02-05,,SI,Mensual,2024-09-05,471594,405100,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-01-01,298586,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-02-12,484258,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-03-07,445529,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-04-21,541508,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-05-10,440936,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-06-28,312491,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-07-15,269664,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-08-09,447841,403103,Colombia
+D00129,Corporación NovaTech,Empresa,gerencia@novatech.com,573001234567,SA,Responsable Inscripto,30-98765432-1,2023-01-01,,SI,Mensual,2023-09-02,500982,403103,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-01-02,86419,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-02-16,18374,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-03-08,51045,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-04-22,76343,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-05-12,249539,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-06-30,251130,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-07-14,472790,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-08-05,470152,405100,Colombia
+D00130,Servicios Plus,Empresa,luis.gonzalez@ecoplus.com,573012345678,SAS,Responsable Inscripto,30-45765232-2,2023-01-02,,SI,Mensual,2023-09-18,570995,405100,Brasil
+D00131,InnovaLogix S.A.,Campaña,carla.fernandez@innovalogix.com,553012345678,SA,Exento,27-65432109-8,2023-01-01,,SI,Bimestral,2023-01-01,329958,405100,Brasil
+D00131,InnovaLogix S.A.,Campaña,carla.fernandez@innovalogix.com,553012345678,SA,Exento,27-65432109-8,2023-01-01,,SI,Bimestral,2023-03-01,242085,405100,Brasil
+D00131,InnovaLogix S.A.,Campaña,carla.fernandez@innovalogix.com,553012345678,SA,Exento,27-65432109-8,2023-01-01,,SI,Bimestral,2023-05-01,460201,405100,Brasil
+D00131,InnovaLogix S.A.,Campaña,carla.fernandez@innovalogix.com,553012345678,SA,Exento,27-65432109-8,2023-01-01,,SI,Bimestral,2023-07-01,572372,405100,Brasil
+D00131,InnovaLogix S.A.,Campaña,carla.fernandez@innovalogix.com,553012345678,SA,Exento,27-65432109-8,2023-01-01,,SI,Bimestral,2023-09-01,408599,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-01-02,29120,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-02-16,88565,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-03-08,88682,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-04-22,28523,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-05-12,13240,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-06-30,27493,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-07-14,222261,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-08-05,102864,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-09-19,228710,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-10-03,291540,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-11-22,366630,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2021-12-09,446985,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-01-03,326348,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-02-18,429540,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-03-07,303796,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-04-25,262362,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-05-12,523067,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-06-30,534547,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-07-15,307194,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-08-09,462809,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-09-23,434394,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-10-07,291606,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-11-20,217008,405100,Chile
+D00132,VíaVerde,Campaña,eco@viaverde.com,56987654321,SRL,Responsable Inscripto,27-78434109-9,2021-01-02,2023-01-03,NO,Mensual,2022-12-05,592642,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-01-21,74488,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-02-14,14428,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-03-07,47448,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-04-22,67094,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-05-10,59924,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-06-30,46713,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-07-15,59286,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-08-04,89666,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-09-19,81847,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-10-05,83619,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-11-23,166344,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2022-12-09,174132,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-01-02,570388,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-02-16,349275,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-03-08,561428,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-04-25,579438,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-05-12,359406,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-06-30,590415,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-07-14,410481,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-08-09,234722,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-09-22,334523,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-10-07,366542,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-11-19,537160,405100,Brasil
+D00133,Energía Futuro S.A.,Empresa,maria.lopez@energiasfuturo.com,552198765432,SA,Responsable Inscripto,30-67891234-7,2022-01-01,2023-12-31,NO,Mensual,2023-12-05,553331,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-01-01,356962,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-02-15,263071,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-03-08,525330,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-04-23,508349,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-05-12,501922,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-06-30,462336,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-07-14,445924,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-08-05,341986,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-09-19,307348,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-10-03,449104,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-11-22,265027,405100,Brasil
+D00134,Energía Sustentable S.A.,Campaña,maria.lopez@energiasustentable.com,552198765432,SA,Responsable Inscripto,33-12345678-9,2023-01-01,2023-12-31,NO,Mensual,2023-12-09,547298,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2020-01-01,60805,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2020-03-01,32127,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2020-05-01,63835,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2020-07-01,84204,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2020-09-01,121573,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2020-11-01,179927,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2021-01-01,433438,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2021-03-01,526926,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2021-05-01,271642,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2021-07-01,400338,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2021-09-01,545228,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2021-11-01,244089,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2022-01-01,569863,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2022-03-01,465762,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2022-05-01,268395,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2022-07-01,694300,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2022-09-01,676067,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2022-11-01,727911,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2023-01-01,538554,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2023-03-01,572337,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2023-05-01,604351,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2023-07-01,563349,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2023-09-01,697998,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2023-11-01,675277,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2024-01-01,747671,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2024-03-01,607880,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2024-05-01,668347,405100,Chile
+D00135,Logística Global S.R.L.,Campaña,global@logisticaglobal.com,56976543210,SRL,Monotributista,20-98765432-1,2020-01-01,,SI,Bimestral,2024-07-01,761671,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-01-01,771106,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-02-15,626668,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-03-08,647753,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-04-22,571778,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-05-10,783804,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-06-30,578491,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-07-14,770156,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-08-05,648108,405100,Colombia
+D00136,AgroIndustrias del Sur,Agroindustria,laura.garcia@agroindustrias.com,573008765432,SA,Responsable Inscripto,33-11223344-5,2024-01-01,,SI,Mensual,2024-09-02,556901,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2022-06-05,46148,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2022-07-05,23153,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2022-08-05,83712,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2022-09-05,55339,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2022-10-05,65179,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2022-11-05,173595,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2022-12-05,116913,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-01-05,447298,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-02-05,307698,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-03-05,464627,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-04-05,294917,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-05-05,273536,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-06-05,477167,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-07-05,345240,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-08-05,578153,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-09-05,255436,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-10-05,630203,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-11-05,788229,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2023-12-05,667281,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-01-05,663026,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-02-05,575890,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-03-05,704002,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-04-05,776587,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-05-05,700318,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-06-05,782687,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-07-05,711560,405100,Argentina
+D00137,TecnoAvanzado S.R.L.,Tecnología,roberto.sanchez@tecnoavanzado.com,5491165432109,SRL,Monotributista,20-22334455-6,2022-06-05,,SI,Mensual,2024-08-05,768202,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-02-02,71381,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-03-12,55346,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-04-08,66576,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-05-25,83697,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-06-10,40499,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-07-28,41123,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-08-15,15614,405100,México
+D00138,Innovación Solar S.A.,Campaña,julia.martinez@innovacionsolar.com,525512345678,SA,Responsable Inscripto,30-99887766-7,2024-02-02,,SI,Mensual,2024-09-05,34964,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,tech@techgreeninnovacion.com,5491145678901,SRL,Responsable Inscripto,25-67890123-0,2024-04-01,,SI,Mensual,2024-04-01,551050,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,tech@techgreeninnovacion.com,5491145678901,SRL,Responsable Inscripto,25-67890123-0,2024-04-01,,SI,Mensual,2024-05-15,700290,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,tech@techgreeninnovacion.com,5491145678901,SRL,Responsable Inscripto,25-67890123-0,2024-04-01,,SI,Mensual,2024-06-08,565167,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,tech@techgreeninnovacion.com,5491145678901,SRL,Responsable Inscripto,25-67890123-0,2024-04-01,,SI,Mensual,2024-07-22,635642,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,tech@techgreeninnovacion.com,5491145678901,SRL,Responsable Inscripto,25-67890123-0,2024-04-01,,SI,Mensual,2024-08-10,642222,405100,Argentina
+D00139,TechGreen Innovación S.R.L.,Agroindustria,tech@techgreeninnovacion.com,5491145678901,SRL,Responsable Inscripto,25-67890123-0,2024-04-01,,SI,Mensual,2024-09-01,514844,405100,Argentina
+D00140,EcoTransporte S.A.,Estado,fernando.lopez@ecotransporte.com,5491187654321,SA,Exento,30-33445566-7,2022-04-01,2023-12-01,NO,Semestral,2022-04-01,496574,405100,Argentina
+D00140,EcoTransporte S.A.,Estado,fernando.lopez@ecotransporte.com,5491187654321,SA,Exento,30-33445566-7,2022-04-01,2023-12-01,NO,Semestral,2022-10-01,444382,405100,Argentina
+D00140,EcoTransporte S.A.,Estado,fernando.lopez@ecotransporte.com,5491187654321,SA,Exento,30-33445566-7,2022-04-01,2023-12-01,NO,Semestral,2023-04-01,488440,405100,Argentina
+D00140,EcoTransporte S.A.,Estado,fernando.lopez@ecotransporte.com,5491187654321,SA,Exento,30-33445566-7,2022-04-01,2023-12-01,NO,Semestral,2023-10-01,309601,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2021-01-01,51713,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2021-04-01,109533,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2021-07-01,117472,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2021-10-01,104618,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2022-01-01,39420,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2022-04-01,46331,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2022-07-01,40212,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2022-10-01,64932,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2023-01-01,81503,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2023-04-01,73476,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2023-07-01,117902,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2023-10-01,38437,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2024-01-01,73466,405100,Argentina
+D00141,Apoyo Social Universal,Estado,apoyosocialuniversal@example.com,5491187655588,GOB,Exento,30-33675566-8,2021-01-01,2024-06-01,NO,Trimestral,2024-04-01,115458,405100,México
+D00142,Bebidas S.A,Campaña,bebidassa@mail.com,525512344324,SA,Responsable Inscripto,34-38765566-0,2024-01-01,2024-05-30,NO,Mensual,2024-01-01,57632,403103,México
+D00142,Bebidas S.A,Campaña,bebidassa@mail.com,525512344324,SA,Responsable Inscripto,34-38765566-0,2024-01-01,2024-05-30,NO,Mensual,2024-02-15,88336,403103,México
+D00142,Bebidas S.A,Campaña,bebidassa@mail.com,525512344324,SA,Responsable Inscripto,34-38765566-0,2024-01-01,2024-05-30,NO,Mensual,2024-03-08,58897,403103,México
+D00142,Bebidas S.A,Campaña,bebidassa@mail.com,525512344324,SA,Responsable Inscripto,34-38765566-0,2024-01-01,2024-05-30,NO,Mensual,2024-04-22,33079,403103,México
+D00142,Bebidas S.A,Campaña,bebidassa@mail.com,525512344324,SA,Responsable Inscripto,34-38765566-0,2024-01-01,2024-05-30,NO,Mensual,2024-05-10,24515,403103,México

@@ -1,0 +1,374 @@
+N�mero_Proveedor,Nombre_Proveedor,CUIT,Categoria_Proveedor,Tipo_Contribuyente,Contacto,Correo_Electrónico,Teléfono,Razón_Social,Importe,Fecha,Nro_Cuenta,Ciudad,Pais
+P00001,Proveedora S.A.,30-12345678-9,Servicios,Responsable Inscripto,Juan Pérez,juan.perez@empresa.com,1234-5678,S.A.,171488,2024-03-18,501400,Buenos Aires,Argentina
+P00002,Pedro González,30-87654321-0,Servicios,Monotributista,Pedro González,pedro.gonzalez@correo.com,2345-6789,S.R.L.,288255,2024-02-08,503100,Cordoba,Argentina
+P00003,Empresa XYZ,30-13579246-3,Materiales,Responsable Inscripto,María López,maria.lopez@empresa.com,3456-7890,S.A.,195975,2024-01-18,506100,Rosario,Argentina
+P00004,Servicios AB,30-24681357-2,Agente Impositivo,Responsable Inscripto,Laura Ruiz,laura.ruiz@correo.com,4567-8901,S.R.L.,158607,2024-03-09,509100,Mendoza,Argentina
+P00005,Carlos Méndez,30-12345678-9,Servicios,Monotributista,Carlos Méndez,carlos.mendez@correo.com,5678-9012,S.A.,238101,2024-03-28,516000,Buenos Aires,Argentina
+P00005,Carlos Méndez,30-12345678-9,Servicios,Monotributista,Carlos Méndez,carlos.mendez@correo.com,5678-9012,S.A.,288617,2024-04-14,516000,Buenos Aires,Argentina
+P00006,Grupo Alfa,30-97531246-1,Servicios,Responsable Inscripto,Alberto Fernández,alberto.fernandez@empresa.com,6789-0123,S.R.L.,251833,2024-01-09,501400,San Miguel de Tucumán,Argentina
+P00007,Ana Sánchez,30-19283746-4,Servicios,Responsable Inscripto,Ana Sánchez,ana.sanchez@correo.com,7890-1234,S.A.,235688,2024-05-06,503100,Mar del Plata,Argentina
+P00008,Compañía Beta,30-74859632-7,Agente Impositivo,Monotributista,Laura Martínez,laura.martinez@empresa.com,8901-2345,S.R.L.,110198,2024-06-12,506100,La Plata,Argentina
+P00008,Compañía Beta,30-74859632-7,Agente Impositivo,Monotributista,Laura Martínez,laura.martinez@empresa.com,8901-2345,S.R.L.,269252,2024-01-21,506100,La Plata,Argentina
+P00009,Fernando Gómez,30-12345679-8,Materiales,Responsable Inscripto,Fernando Gómez,fernando.gomez@correo.com,9012-3456,S.A.,12373,2024-01-20,509100,Mendoza,Argentina
+P00009,Fernando Gómez,30-12345679-8,Materiales,Responsable Inscripto,Fernando Gómez,fernando.gomez@correo.com,9012-3456,S.A.,151274,2024-03-06,509100,Mendoza,Argentina
+P00010,Soluciones Gama,30-98765432-1,Servicios,Responsable Inscripto,Javier Martínez,javier.martinez@empresa.com,0123-4567,S.R.L.,101610,2024-01-28,514100,Mar del Plata,Argentina
+P00010,Soluciones Gama,30-98765432-1,Servicios,Responsable Inscripto,Javier Martínez,javier.martinez@empresa.com,0123-4567,S.R.L.,273713,2024-05-02,514100,Mar del Plata,Argentina
+P00011,Javier López,30-65432198-7,Agente Impositivo,Monotributista,Javier López,javier.lopez@correo.com,1234-5678,S.A.,291963,2024-06-04,516000,Mar del Plata,Argentina
+P00012,Proveedor Ltda.,30-32165487-0,Servicios,Responsable Inscripto,Natalia Gómez,natalia.gomez@empresa.com,2345-6789,S.R.L.,224379,2024-04-09,501400,Salta,Argentina
+P00012,Proveedor Ltda.,30-32165487-0,Servicios,Responsable Inscripto,Natalia Gómez,natalia.gomez@empresa.com,2345-6789,S.R.L.,153447,2024-06-03,501400,Salta,Argentina
+P00013,Repuestos Omega,30-45678901-2,Servicios,Monotributista,Sergio Castro,sergio.castro@correo.com,3456-7890,S.A.,79543,2024-04-14,503100,Santa Fe,Argentina
+P00013,Repuestos Omega,30-45678901-2,Servicios,Monotributista,Sergio Castro,sergio.castro@correo.com,3456-7890,S.A.,41665,2024-02-01,503100,Santa Fe,Argentina
+P00014,Estudio Jurídico Alfa,30-13579248-7,Materiales,Responsable Inscripto,María Hernández,maria.hernandez@correo.com,4567-8901,S.R.L.,58494,2024-01-15,506100,San Juan,Argentina
+P00014,Estudio Jurídico Alfa,30-13579248-7,Materiales,Responsable Inscripto,María Hernández,maria.hernandez@correo.com,4567-8901,S.R.L.,218705,2024-06-19,506100,San Juan,Argentina
+P00015,Rosa Pérez,30-24681358-6,Agente Impositivo,Responsable Inscripto,Rosa Pérez,rosa.perez@correo.com,5678-9012,S.A.,35574,2024-05-24,509100,Buenos Aires,Argentina
+P00015,Rosa Pérez,30-24681358-6,Agente Impositivo,Responsable Inscripto,Rosa Pérez,rosa.perez@correo.com,5678-9012,S.A.,26434,2024-05-19,509100,Buenos Aires,Argentina
+P00016,Marketing Global,30-97531247-8,Servicios,Responsable Inscripto,Gabriela Gómez,gabriela.gomez@empresa.com,6789-0123,S.R.L.,295412,2024-04-09,514100,Neuquén,Argentina
+P00016,Marketing Global,30-97531247-8,Servicios,Responsable Inscripto,Gabriela Gómez,gabriela.gomez@empresa.com,6789-0123,S.R.L.,128265,2024-04-10,514100,Neuquén,Argentina
+P00017,Julio Fernández,30-86430976-9,Materiales,Monotributista,Julio Fernández,julio.fernandez@correo.com,7890-1234,S.A.,136358,2024-05-01,516000,Rio Gallegos,Argentina
+P00017,Julio Fernández,30-86430976-9,Materiales,Monotributista,Julio Fernández,julio.fernandez@correo.com,7890-1234,S.A.,288537,2024-03-05,516000,Rio Gallegos,Argentina
+P00018,Consultora Zeta,30-19283747-0,Servicios,Responsable Inscripto, Laura Sánchez,laura.sanchez@empresa.com,8901-2345,S.R.L.,122441,2024-01-03,501400,San Rafael,Argentina
+P00018,Consultora Zeta,30-19283747-0,Servicios,Responsable Inscripto, Laura Sánchez,laura.sanchez@empresa.com,8901-2345,S.R.L.,133962,2024-02-04,501400,San Rafael,Argentina
+P00101,Luis Martínez,20-12345678-9,Tecnología,Monotributista,Luis Martínez,luis.martinez@empresa.xyz,0111-2345,S.R.L.,109470,2019-01-01,509100,Buenos Aires,Argentina
+P00101,Luis Martínez,20-12345678-9,Tecnología,Monotributista,Luis Martínez,luis.martinez@empresa.xyz,0111-2345,S.R.L.,211512,2019-03-28,509100,Buenos Aires,Argentina
+P00101,Luis Martínez,20-12345678-9,Tecnología,Monotributista,Luis Martínez,luis.martinez@empresa.xyz,0111-2345,S.R.L.,115392,2019-05-28,509100,Buenos Aires,Argentina
+P00101,Luis Martínez,20-12345678-9,Tecnología,Monotributista,Luis Martínez,luis.martinez@empresa.xyz,0111-2345,S.R.L.,66906,2021-01-07,509100,Buenos Aires,Argentina
+P00101,Luis Martínez,20-12345678-9,Tecnología,Monotributista,Luis Martínez,luis.martinez@empresa.xyz,0111-2345,S.R.L.,149277,2020-10-07,509100,Buenos Aires,Argentina
+P00101,Luis Martínez,20-12345678-9,Tecnología,Monotributista,Luis Martínez,luis.martinez@empresa.xyz,0111-2345,S.R.L.,164820,2023-01-01,509100,Buenos Aires,Argentina
+P00101,Luis Martínez,20-12345678-9,Tecnología,Monotributista,Luis Martínez,luis.martinez@empresa.xyz,0111-2345,S.R.L.,84017,2023-10-07,509100,Buenos Aires,Argentina
+P00102,Ana Rodríguez,30-98765432-5,Consultoría,IVA Responsable,Ana Rodríguez,ana.rodriguez@empresa.abc,0123-5678,S.A.,12770,2019-01-03,501400,Bahía Blanca,Argentina
+P00102,Ana Rodríguez,30-98765432-5,Consultoría,IVA Responsable,Ana Rodríguez,ana.rodriguez@empresa.abc,0123-5678,S.A.,279575,2019-04-01,501400,Bahía Blanca,Argentina
+P00102,Ana Rodríguez,30-98765432-5,Consultoría,IVA Responsable,Ana Rodríguez,ana.rodriguez@empresa.abc,0123-5678,S.A.,229019,2019-06-01,501400,Bahía Blanca,Argentina
+P00102,Ana Rodríguez,30-98765432-5,Consultoría,IVA Responsable,Ana Rodríguez,ana.rodriguez@empresa.abc,0123-5678,S.A.,277032,2021-01-10,501400,Bahía Blanca,Argentina
+P00102,Ana Rodríguez,30-98765432-5,Consultoría,IVA Responsable,Ana Rodríguez,ana.rodriguez@empresa.abc,0123-5678,S.A.,170554,2020-10-10,501400,Bahía Blanca,Argentina
+P00102,Ana Rodríguez,30-98765432-5,Consultoría,IVA Responsable,Ana Rodríguez,ana.rodriguez@empresa.abc,0123-5678,S.A.,109099,2023-01-03,501400,Bahía Blanca,Argentina
+P00102,Ana Rodríguez,30-98765432-5,Consultoría,IVA Responsable,Ana Rodríguez,ana.rodriguez@empresa.abc,0123-5678,S.A.,120929,2023-10-10,501400,Bahía Blanca,Argentina
+P00103,Carlos Fernández,27-23456789-1,Energía Renovable,Monotributista,Carlos Fernández,carlos.fernandez@empresa.def,0345-6789,Cooperativa,272036,2019-01-05,501400,Buenos Aires,Argentina
+P00103,Carlos Fernández,27-23456789-1,Energía Renovable,Monotributista,Carlos Fernández,carlos.fernandez@empresa.def,0345-6789,Cooperativa,211801,2019-04-04,501400,Buenos Aires,Argentina
+P00103,Carlos Fernández,27-23456789-1,Energía Renovable,Monotributista,Carlos Fernández,carlos.fernandez@empresa.def,0345-6789,Cooperativa,153534,2019-06-04,501400,Buenos Aires,Argentina
+P00103,Carlos Fernández,27-23456789-1,Energía Renovable,Monotributista,Carlos Fernández,carlos.fernandez@empresa.def,0345-6789,Cooperativa,291211,2021-01-13,501400,Buenos Aires,Argentina
+P00103,Carlos Fernández,27-23456789-1,Energía Renovable,Monotributista,Carlos Fernández,carlos.fernandez@empresa.def,0345-6789,Cooperativa,25100,2020-10-13,501400,Buenos Aires,Argentina
+P00103,Carlos Fernández,27-23456789-1,Energía Renovable,Monotributista,Carlos Fernández,carlos.fernandez@empresa.def,0345-6789,Cooperativa,136125,2023-01-05,501400,Buenos Aires,Argentina
+P00103,Carlos Fernández,27-23456789-1,Energía Renovable,Monotributista,Carlos Fernández,carlos.fernandez@empresa.def,0345-6789,Cooperativa,151245,2023-10-13,501400,Buenos Aires,Argentina
+P00104,María González,23-45678901-3,Transporte,Responsable Inscripto,María González,maria.gonzalez@empresa.ghi,0678-3456,S.R.L.,10352,2019-01-07,502100,Buenos Aires,Argentina
+P00104,María González,23-45678901-3,Transporte,Responsable Inscripto,María González,maria.gonzalez@empresa.ghi,0678-3456,S.R.L.,199434,2019-04-07,502100,Buenos Aires,Argentina
+P00104,María González,23-45678901-3,Transporte,Responsable Inscripto,María González,maria.gonzalez@empresa.ghi,0678-3456,S.R.L.,288754,2021-01-16,502100,Buenos Aires,Argentina
+P00104,María González,23-45678901-3,Transporte,Responsable Inscripto,María González,maria.gonzalez@empresa.ghi,0678-3456,S.R.L.,241670,2023-01-07,502100,Buenos Aires,Argentina
+P00105,Pedro López,33-56789012-4,Construcción,Monotributista,Pedro López,pedro.lopez@empresa.jkl,0765-4321,S.A.,291670,2019-01-10,516000,Santiago del Estero,Argentina
+P00105,Pedro López,33-56789012-4,Construcción,Monotributista,Pedro López,pedro.lopez@empresa.jkl,0765-4321,S.A.,175139,2019-04-10,516000,Santiago del Estero,Argentina
+P00105,Pedro López,33-56789012-4,Construcción,Monotributista,Pedro López,pedro.lopez@empresa.jkl,0765-4321,S.A.,140691,2021-01-19,516000,Santiago del Estero,Argentina
+P00105,Pedro López,33-56789012-4,Construcción,Monotributista,Pedro López,pedro.lopez@empresa.jkl,0765-4321,S.A.,257510,2023-01-10,516000,Santiago del Estero,Argentina
+P00106,Laura Pérez,20-87654321-2,Agroindustria,IVA Responsable,Laura Pérez,laura.perez@empresa.mno,0889-7654,S.R.L.,104176,2019-02-11,507100,Río Cuarto,Argentina
+P00106,Laura Pérez,20-87654321-2,Agroindustria,IVA Responsable,Laura Pérez,laura.perez@empresa.mno,0889-7654,S.R.L.,18742,2019-04-13,507100,Río Cuarto,Argentina
+P00106,Laura Pérez,20-87654321-2,Agroindustria,IVA Responsable,Laura Pérez,laura.perez@empresa.mno,0889-7654,S.R.L.,29783,2021-01-22,507100,Río Cuarto,Argentina
+P00106,Laura Pérez,20-87654321-2,Agroindustria,IVA Responsable,Laura Pérez,laura.perez@empresa.mno,0889-7654,S.R.L.,47776,2023-02-11,507100,Río Cuarto,Argentina
+P00107,Javier Ramírez,30-65432109-8,Tecnología,Monotributista,Javier Ramírez,javier.ramirez@empresa.pqr,0999-1234,S.A.,64042,2019-02-14,509100,San Fernando del Valle de Catamarca,Argentina
+P00107,Javier Ramírez,30-65432109-8,Tecnología,Monotributista,Javier Ramírez,javier.ramirez@empresa.pqr,0999-1234,S.A.,271022,2019-04-16,509100,San Fernando del Valle de Catamarca,Argentina
+P00107,Javier Ramírez,30-65432109-8,Tecnología,Monotributista,Javier Ramírez,javier.ramirez@empresa.pqr,0999-1234,S.A.,269442,2021-01-25,509100,San Fernando del Valle de Catamarca,Argentina
+P00107,Javier Ramírez,30-65432109-8,Tecnología,Monotributista,Javier Ramírez,javier.ramirez@empresa.pqr,0999-1234,S.A.,51622,2023-02-14,509100,San Fernando del Valle de Catamarca,Argentina
+P00108,Claudia Sánchez,27-76543210-6,Energía Renovable,Responsable Inscripto,Claudia Sánchez,claudia.sanchez@empresa.stu,0777-5678,Cooperativa,131033,2019-02-17,501400,Villa María,Argentina
+P00108,Claudia Sánchez,27-76543210-6,Energía Renovable,Responsable Inscripto,Claudia Sánchez,claudia.sanchez@empresa.stu,0777-5678,Cooperativa,166866,2019-04-19,501400,Villa María,Argentina
+P00108,Claudia Sánchez,27-76543210-6,Energía Renovable,Responsable Inscripto,Claudia Sánchez,claudia.sanchez@empresa.stu,0777-5678,Cooperativa,42714,2021-01-28,501400,Villa María,Argentina
+P00108,Claudia Sánchez,27-76543210-6,Energía Renovable,Responsable Inscripto,Claudia Sánchez,claudia.sanchez@empresa.stu,0777-5678,Cooperativa,130133,2023-02-17,501400,Villa María,Argentina
+P00109,Daniel Morales,23-87654320-5,Transporte,Monotributista,Daniel Morales,daniel.morales@empresa.vwx,0555-4321,S.R.L.,152895,2019-02-20,502100,San Luis,Argentina
+P00109,Daniel Morales,23-87654320-5,Transporte,Monotributista,Daniel Morales,daniel.morales@empresa.vwx,0555-4321,S.R.L.,230465,2019-04-22,502100,San Luis,Argentina
+P00109,Daniel Morales,23-87654320-5,Transporte,Monotributista,Daniel Morales,daniel.morales@empresa.vwx,0555-4321,S.R.L.,190624,2021-02-01,502100,San Luis,Argentina
+P00109,Daniel Morales,23-87654320-5,Transporte,Monotributista,Daniel Morales,daniel.morales@empresa.vwx,0555-4321,S.R.L.,232698,2023-02-20,502100,San Luis,Argentina
+P00110,Gabriela Torres,33-76543219-7,Construcción,IVA Responsable,Gabriela Torres,gabriela.torres@empresa.yza,0666-2345,S.A.,192247,2019-01-12,516000,Chaco,Argentina
+P00110,Gabriela Torres,33-76543219-7,Construcción,IVA Responsable,Gabriela Torres,gabriela.torres@empresa.yza,0666-2345,S.A.,215535,2019-02-23,516000,Chaco,Argentina
+P00110,Gabriela Torres,33-76543219-7,Construcción,IVA Responsable,Gabriela Torres,gabriela.torres@empresa.yza,0666-2345,S.A.,53588,2019-04-25,516000,Chaco,Argentina
+P00110,Gabriela Torres,33-76543219-7,Construcción,IVA Responsable,Gabriela Torres,gabriela.torres@empresa.yza,0666-2345,S.A.,198463,2021-02-04,516000,Chaco,Argentina
+P00110,Gabriela Torres,33-76543219-7,Construcción,IVA Responsable,Gabriela Torres,gabriela.torres@empresa.yza,0666-2345,S.A.,193408,2023-01-12,516000,Chaco,Argentina
+P00110,Gabriela Torres,33-76543219-7,Construcción,IVA Responsable,Gabriela Torres,gabriela.torres@empresa.yza,0666-2345,S.A.,175620,2023-02-23,516000,Chaco,Argentina
+P00111,Jorge Herrera,20-87654322-3,Agroindustria,Monotributista,Jorge Herrera,jorge.herrera@empresa.bcd,0123-9876,S.R.L.,233493,2019-01-15,507100,Buenos Aires,Argentina
+P00111,Jorge Herrera,20-87654322-3,Agroindustria,Monotributista,Jorge Herrera,jorge.herrera@empresa.bcd,0123-9876,S.R.L.,172873,2019-02-26,507100,Buenos Aires,Argentina
+P00111,Jorge Herrera,20-87654322-3,Agroindustria,Monotributista,Jorge Herrera,jorge.herrera@empresa.bcd,0123-9876,S.R.L.,134090,2019-04-28,507100,Buenos Aires,Argentina
+P00111,Jorge Herrera,20-87654322-3,Agroindustria,Monotributista,Jorge Herrera,jorge.herrera@empresa.bcd,0123-9876,S.R.L.,128552,2021-02-07,507100,Buenos Aires,Argentina
+P00111,Jorge Herrera,20-87654322-3,Agroindustria,Monotributista,Jorge Herrera,jorge.herrera@empresa.bcd,0123-9876,S.R.L.,200989,2023-01-15,507100,Buenos Aires,Argentina
+P00111,Jorge Herrera,20-87654322-3,Agroindustria,Monotributista,Jorge Herrera,jorge.herrera@empresa.bcd,0123-9876,S.R.L.,248690,2023-02-26,507100,Buenos Aires,Argentina
+P00112,Silvia Ramírez,30-76543214-8,Tecnología,IVA Responsable,Silvia Ramírez,silvia.ramirez@empresa.efg,0999-2345,S.A.,39393,2019-01-17,509100,San Nicolás,Argentina
+P00112,Silvia Ramírez,30-76543214-8,Tecnología,IVA Responsable,Silvia Ramírez,silvia.ramirez@empresa.efg,0999-2345,S.A.,202116,2019-03-01,509100,San Nicolás,Argentina
+P00112,Silvia Ramírez,30-76543214-8,Tecnología,IVA Responsable,Silvia Ramírez,silvia.ramirez@empresa.efg,0999-2345,S.A.,282553,2019-05-01,509100,San Nicolás,Argentina
+P00112,Silvia Ramírez,30-76543214-8,Tecnología,IVA Responsable,Silvia Ramírez,silvia.ramirez@empresa.efg,0999-2345,S.A.,143848,2021-02-10,509100,San Nicolás,Argentina
+P00112,Silvia Ramírez,30-76543214-8,Tecnología,IVA Responsable,Silvia Ramírez,silvia.ramirez@empresa.efg,0999-2345,S.A.,172745,2023-01-17,509100,San Nicolás,Argentina
+P00112,Silvia Ramírez,30-76543214-8,Tecnología,IVA Responsable,Silvia Ramírez,silvia.ramirez@empresa.efg,0999-2345,S.A.,176341,2023-03-01,509100,San Nicolás,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,125746,2019-01-20,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,259600,2019-03-04,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,232274,2019-05-04,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,49747,2019-06-07,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,111656,2021-02-13,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,43202,2020-10-16,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,129158,2023-01-20,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,152240,2023-03-04,501400,Luján,Argentina
+P00113,Roberto Cruz,27-23456789-3,Energía Renovable,Responsable Inscripto,Roberto Cruz,roberto.cruz@empresa.hij,0555-9876,Cooperativa,35853,2023-10-16,501400,Luján,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,13869,2019-01-22,502100,Jujuy,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,157396,2019-03-07,502100,Jujuy,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,97345,2019-05-07,502100,Jujuy,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,57351,2019-06-10,502100,Jujuy,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,251228,2021-02-16,502100,Jujuy,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,257036,2020-10-19,502100,Jujuy,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,226947,2023-01-22,502100,Jujuy,Argentina
+P00114,Patricia Gómez,23-87654323-6,Transporte,Monotributista,Patricia Gómez,patricia.gomez@empresa.klm,0765-3456,S.R.L.,57471,2023-10-19,502100,Jujuy,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,277243,2019-01-25,516000,Buenos Aires,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,184382,2019-03-10,516000,Buenos Aires,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,273206,2019-05-10,516000,Buenos Aires,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,109321,2019-06-13,516000,Buenos Aires,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,11195,2021-02-19,516000,Buenos Aires,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,218095,2020-10-22,516000,Buenos Aires,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,14028,2023-01-25,516000,Buenos Aires,Argentina
+P00115,Ernesto Ruiz,33-65432198-7,Construcción,IVA Responsable,Ernesto Ruiz,ernesto.ruiz@empresa.nop,0889-6543,S.A.,289894,2023-10-22,516000,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,212213,2019-01-27,507100,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,189803,2019-03-13,507100,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,91956,2019-05-13,507100,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,94918,2019-06-16,507100,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,262781,2020-09-22,507100,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,113111,2020-10-25,507100,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,93391,2023-01-27,507100,Buenos Aires,Argentina
+P00116,Valeria Ortega,20-98765432-9,Agroindustria,Monotributista,Valeria Ortega,valeria.ortega@empresa.qrs,0777-7654,S.R.L.,228821,2023-10-25,507100,Buenos Aires,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,214933,2019-01-30,509100,Trelew,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,121607,2019-03-16,509100,Trelew,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,63352,2019-05-16,509100,Trelew,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,60909,2019-06-19,509100,Trelew,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,191131,2020-09-25,509100,Trelew,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,30101,2020-10-28,509100,Trelew,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,239664,2023-01-30,509100,Trelew,Argentina
+P00117,Juan Castillo,30-87654321-0,Tecnología,IVA Responsable,Juan Castillo,juan.castillo@empresa.tuv,0345-9998,S.A.,16770,2023-10-28,509100,Trelew,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,167832,2019-02-02,501400,Mendoza,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,247694,2019-03-19,501400,Mendoza,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,113663,2019-05-19,501400,Mendoza,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,19987,2019-06-22,501400,Mendoza,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,26855,2020-09-28,501400,Mendoza,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,299321,2020-11-01,501400,Mendoza,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,145362,2023-02-02,501400,Mendoza,Argentina
+P00118,Sofía Martínez,27-12345678-9,Energía Renovable,Responsable Inscripto,Sofía Martínez,sofia.martinez@empresa.wxy,0555-2345,Cooperativa,52591,2023-11-01,501400,Mendoza,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,285851,2019-02-05,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,266431,2019-03-22,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,47892,2019-05-22,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,143655,2019-06-25,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,253069,2021-01-01,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,124078,2020-10-01,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,164974,2020-11-04,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,98184,2023-02-05,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,70237,2023-10-01,502100,San Fernando,Argentina
+P00119,Pablo Díaz,23-87654329-8,Transporte,Monotributista,Pablo Díaz,pablo.diaz@empresa.zab,0123-7654,S.R.L.,249088,2023-11-04,502100,San Fernando,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,130253,2019-02-08,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,201168,2019-03-25,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,182791,2019-05-25,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,100941,2019-06-28,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,74480,2019-07-01,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,50006,2019-07-04,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,70453,2021-01-04,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,16006,2020-10-04,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,168444,2020-11-07,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,285123,2020-11-10,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,118002,2020-11-13,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,262998,2023-02-08,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,71101,2023-10-04,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,132812,2023-11-07,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,193225,2023-11-10,516000,Merlo,Argentina
+P00120,Isabel Ramírez,33-76543218-9,Construcción,IVA Responsable,Isabel Ramírez,isabel.ramirez@empresa.bef,0999-9876,S.A.,198619,2023-11-13,516000,Merlo,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,222631,2020-01-02,509100,San Martín,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,61912,2020-04-01,509100,San Martín,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,235544,2020-07-01,509100,San Martín,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,153467,2020-11-22,509100,San Martín,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,229698,2021-03-04,509100,San Martín,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,66132,2020-11-16,509100,San Martín,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,296580,2021-02-19,509100,San Martín,Argentina
+P00121,Carla Medina,20-34567890-1,Software,Monotributista,Carla Medina,carla.medina@empresa.qrs,0123-6789,S.R.L.,228513,2022-10-19,509100,San Martín,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,183419,2020-01-05,501400,Viedma,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,218194,2020-04-04,501400,Viedma,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,175383,2020-07-04,501400,Viedma,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,216757,2020-11-25,501400,Viedma,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,102297,2021-03-07,501400,Viedma,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,24251,2022-11-17,501400,Viedma,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,149161,2022-09-22,501400,Viedma,Argentina
+P00122,Manuel Fernández,30-98765434-2,Consultoría IT,IVA Responsable,Manuel Fernández,manuel.fernandez@empresa.tuv,0345-6789,S.A.,91564,2022-10-22,501400,Viedma,Argentina
+P00123,Sofía Castro,27-87654321-0,Energía Eólica,Monotributista,Sofía Castro,sofia.castro@empresa.uvw,0456-7890,S.A.,296190,2020-01-08,501400,Rawson,Argentina
+P00123,Sofía Castro,27-87654321-0,Energía Eólica,Monotributista,Sofía Castro,sofia.castro@empresa.uvw,0456-7890,S.A.,251963,2020-04-07,501400,Rawson,Argentina
+P00123,Sofía Castro,27-87654321-0,Energía Eólica,Monotributista,Sofía Castro,sofia.castro@empresa.uvw,0456-7890,S.A.,119340,2020-07-07,501400,Rawson,Argentina
+P00123,Sofía Castro,27-87654321-0,Energía Eólica,Monotributista,Sofía Castro,sofia.castro@empresa.uvw,0456-7890,S.A.,248673,2020-11-28,501400,Rawson,Argentina
+P00123,Sofía Castro,27-87654321-0,Energía Eólica,Monotributista,Sofía Castro,sofia.castro@empresa.uvw,0456-7890,S.A.,75137,2022-11-18,501400,Rawson,Argentina
+P00123,Sofía Castro,27-87654321-0,Energía Eólica,Monotributista,Sofía Castro,sofia.castro@empresa.uvw,0456-7890,S.A.,85257,2022-09-25,501400,Rawson,Argentina
+P00123,Sofía Castro,27-87654321-0,Energía Eólica,Monotributista,Sofía Castro,sofia.castro@empresa.uvw,0456-7890,S.A.,91564,2022-10-25,501400,Rawson,Argentina
+P00124,Ricardo López,23-98765432-4,Construcción,IVA Responsable,Ricardo López,ricardo.lopez@empresa.xyz,0567-8901,S.R.L.,88564,2020-01-11,516000,Oberá,Argentina
+P00124,Ricardo López,23-98765432-4,Construcción,IVA Responsable,Ricardo López,ricardo.lopez@empresa.xyz,0567-8901,S.R.L.,109710,2020-04-10,516000,Oberá,Argentina
+P00124,Ricardo López,23-98765432-4,Construcción,IVA Responsable,Ricardo López,ricardo.lopez@empresa.xyz,0567-8901,S.R.L.,129304,2020-07-10,516000,Oberá,Argentina
+P00124,Ricardo López,23-98765432-4,Construcción,IVA Responsable,Ricardo López,ricardo.lopez@empresa.xyz,0567-8901,S.R.L.,233659,2020-12-01,516000,Oberá,Argentina
+P00124,Ricardo López,23-98765432-4,Construcción,IVA Responsable,Ricardo López,ricardo.lopez@empresa.xyz,0567-8901,S.R.L.,30337,2021-01-28,516000,Oberá,Argentina
+P00124,Ricardo López,23-98765432-4,Construcción,IVA Responsable,Ricardo López,ricardo.lopez@empresa.xyz,0567-8901,S.R.L.,246839,2022-09-28,516000,Oberá,Argentina
+P00125,Gabriela Martínez,33-12345678-9,Agroindustria,Monotributista,Gabriela Martínez,gabriela.martinez@empresa.abc,0678-9012,Cooperativa,22903,2020-01-14,507100,Calafate,Argentina
+P00125,Gabriela Martínez,33-12345678-9,Agroindustria,Monotributista,Gabriela Martínez,gabriela.martinez@empresa.abc,0678-9012,Cooperativa,247663,2020-04-13,507100,Calafate,Argentina
+P00125,Gabriela Martínez,33-12345678-9,Agroindustria,Monotributista,Gabriela Martínez,gabriela.martinez@empresa.abc,0678-9012,Cooperativa,90516,2020-07-13,507100,Calafate,Argentina
+P00125,Gabriela Martínez,33-12345678-9,Agroindustria,Monotributista,Gabriela Martínez,gabriela.martinez@empresa.abc,0678-9012,Cooperativa,139242,2020-12-04,507100,Calafate,Argentina
+P00125,Gabriela Martínez,33-12345678-9,Agroindustria,Monotributista,Gabriela Martínez,gabriela.martinez@empresa.abc,0678-9012,Cooperativa,88185,2021-02-01,507100,Calafate,Argentina
+P00125,Gabriela Martínez,33-12345678-9,Agroindustria,Monotributista,Gabriela Martínez,gabriela.martinez@empresa.abc,0678-9012,Cooperativa,244816,2022-10-01,507100,Calafate,Argentina
+P00126,Pablo Vargas,20-23456789-1,Tecnología,IVA Responsable,Pablo Vargas,pablo.vargas@empresa.def,0789-0123,S.A.,74389,2020-01-17,509100,Gualeguaychú,Argentina
+P00126,Pablo Vargas,20-23456789-1,Tecnología,IVA Responsable,Pablo Vargas,pablo.vargas@empresa.def,0789-0123,S.A.,117043,2020-04-16,509100,Gualeguaychú,Argentina
+P00126,Pablo Vargas,20-23456789-1,Tecnología,IVA Responsable,Pablo Vargas,pablo.vargas@empresa.def,0789-0123,S.A.,97376,2020-07-16,509100,Gualeguaychú,Argentina
+P00126,Pablo Vargas,20-23456789-1,Tecnología,IVA Responsable,Pablo Vargas,pablo.vargas@empresa.def,0789-0123,S.A.,231968,2020-12-07,509100,Gualeguaychú,Argentina
+P00126,Pablo Vargas,20-23456789-1,Tecnología,IVA Responsable,Pablo Vargas,pablo.vargas@empresa.def,0789-0123,S.A.,146818,2021-02-04,509100,Gualeguaychú,Argentina
+P00126,Pablo Vargas,20-23456789-1,Tecnología,IVA Responsable,Pablo Vargas,pablo.vargas@empresa.def,0789-0123,S.A.,14222,2022-10-04,509100,Gualeguaychú,Argentina
+P00127,Laura Fernández,30-34567890-3,Energía Solar,Monotributista,Laura Fernández,laura.fernandez@empresa.ghi,0890-1234,S.R.L.,37706,2020-01-20,501400,Río Grande,Argentina
+P00127,Laura Fernández,30-34567890-3,Energía Solar,Monotributista,Laura Fernández,laura.fernandez@empresa.ghi,0890-1234,S.R.L.,11442,2020-04-19,501400,Río Grande,Argentina
+P00127,Laura Fernández,30-34567890-3,Energía Solar,Monotributista,Laura Fernández,laura.fernandez@empresa.ghi,0890-1234,S.R.L.,179093,2020-07-19,501400,Río Grande,Argentina
+P00127,Laura Fernández,30-34567890-3,Energía Solar,Monotributista,Laura Fernández,laura.fernandez@empresa.ghi,0890-1234,S.R.L.,173998,2020-12-10,501400,Río Grande,Argentina
+P00127,Laura Fernández,30-34567890-3,Energía Solar,Monotributista,Laura Fernández,laura.fernandez@empresa.ghi,0890-1234,S.R.L.,283665,2021-02-07,501400,Río Grande,Argentina
+P00127,Laura Fernández,30-34567890-3,Energía Solar,Monotributista,Laura Fernández,laura.fernandez@empresa.ghi,0890-1234,S.R.L.,212134,2022-10-07,501400,Río Grande,Argentina
+P00128,Javier González,27-98765432-5,Transporte,IVA Responsable,Javier González,javier.gonzalez@empresa.jkl,0912-3456,S.A.,198341,2020-01-23,502100,Buenos Aires,Argentina
+P00128,Javier González,27-98765432-5,Transporte,IVA Responsable,Javier González,javier.gonzalez@empresa.jkl,0912-3456,S.A.,10587,2020-04-22,502100,Buenos Aires,Argentina
+P00128,Javier González,27-98765432-5,Transporte,IVA Responsable,Javier González,javier.gonzalez@empresa.jkl,0912-3456,S.A.,179746,2020-07-22,502100,Buenos Aires,Argentina
+P00128,Javier González,27-98765432-5,Transporte,IVA Responsable,Javier González,javier.gonzalez@empresa.jkl,0912-3456,S.A.,83142,2020-12-13,502100,Buenos Aires,Argentina
+P00128,Javier González,27-98765432-5,Transporte,IVA Responsable,Javier González,javier.gonzalez@empresa.jkl,0912-3456,S.A.,59591,2021-02-10,502100,Buenos Aires,Argentina
+P00128,Javier González,27-98765432-5,Transporte,IVA Responsable,Javier González,javier.gonzalez@empresa.jkl,0912-3456,S.A.,280267,2022-10-10,502100,Buenos Aires,Argentina
+P00129,Patricia Rivas,23-45678901-7,Construcción,Monotributista,Patricia Rivas,patricia.rivas@empresa.mno,0123-4567,S.R.L.,237422,2020-01-26,516000,Villa Carlos Paz,Argentina
+P00129,Patricia Rivas,23-45678901-7,Construcción,Monotributista,Patricia Rivas,patricia.rivas@empresa.mno,0123-4567,S.R.L.,13020,2020-04-25,516000,Villa Carlos Paz,Argentina
+P00129,Patricia Rivas,23-45678901-7,Construcción,Monotributista,Patricia Rivas,patricia.rivas@empresa.mno,0123-4567,S.R.L.,94240,2020-07-25,516000,Villa Carlos Paz,Argentina
+P00129,Patricia Rivas,23-45678901-7,Construcción,Monotributista,Patricia Rivas,patricia.rivas@empresa.mno,0123-4567,S.R.L.,64138,2020-12-16,516000,Villa Carlos Paz,Argentina
+P00129,Patricia Rivas,23-45678901-7,Construcción,Monotributista,Patricia Rivas,patricia.rivas@empresa.mno,0123-4567,S.R.L.,209335,2021-02-13,516000,Villa Carlos Paz,Argentina
+P00129,Patricia Rivas,23-45678901-7,Construcción,Monotributista,Patricia Rivas,patricia.rivas@empresa.mno,0123-4567,S.R.L.,211622,2022-10-13,516000,Villa Carlos Paz,Argentina
+P00130,Fernando Reyes,33-56789012-6,Agroindustria,IVA Responsable,Fernando Reyes,fernando.reyes@empresa.pqr,0345-6789,Cooperativa,79707,2020-01-29,507100,Villa Allende,Argentina
+P00130,Fernando Reyes,33-56789012-6,Agroindustria,IVA Responsable,Fernando Reyes,fernando.reyes@empresa.pqr,0345-6789,Cooperativa,217800,2020-04-28,507100,Villa Allende,Argentina
+P00130,Fernando Reyes,33-56789012-6,Agroindustria,IVA Responsable,Fernando Reyes,fernando.reyes@empresa.pqr,0345-6789,Cooperativa,26298,2020-07-28,507100,Villa Allende,Argentina
+P00130,Fernando Reyes,33-56789012-6,Agroindustria,IVA Responsable,Fernando Reyes,fernando.reyes@empresa.pqr,0345-6789,Cooperativa,147083,2020-12-19,507100,Villa Allende,Argentina
+P00130,Fernando Reyes,33-56789012-6,Agroindustria,IVA Responsable,Fernando Reyes,fernando.reyes@empresa.pqr,0345-6789,Cooperativa,241869,2021-02-16,507100,Villa Allende,Argentina
+P00130,Fernando Reyes,33-56789012-6,Agroindustria,IVA Responsable,Fernando Reyes,fernando.reyes@empresa.pqr,0345-6789,Cooperativa,140463,2022-10-16,507100,Villa Allende,Argentina
+P00131,Valentina Ortega,20-87654321-2,Consultoría,Monotributista,Valentina Ortega,valentina.ortega@empresa.stu,0456-7890,S.R.L.,12989,2020-02-01,501400,San Pedro,Argentina
+P00131,Valentina Ortega,20-87654321-2,Consultoría,Monotributista,Valentina Ortega,valentina.ortega@empresa.stu,0456-7890,S.R.L.,268049,2020-05-01,501400,San Pedro,Argentina
+P00131,Valentina Ortega,20-87654321-2,Consultoría,Monotributista,Valentina Ortega,valentina.ortega@empresa.stu,0456-7890,S.R.L.,222635,2020-08-01,501400,San Pedro,Argentina
+P00131,Valentina Ortega,20-87654321-2,Consultoría,Monotributista,Valentina Ortega,valentina.ortega@empresa.stu,0456-7890,S.R.L.,256449,2020-12-22,501400,San Pedro,Argentina
+P00131,Valentina Ortega,20-87654321-2,Consultoría,Monotributista,Valentina Ortega,valentina.ortega@empresa.stu,0456-7890,S.R.L.,141315,2021-02-19,501400,San Pedro,Argentina
+P00131,Valentina Ortega,20-87654321-2,Consultoría,Monotributista,Valentina Ortega,valentina.ortega@empresa.stu,0456-7890,S.R.L.,186346,2022-10-19,501400,San Pedro,Argentina
+P00132,Andrés Ruiz,30-12345678-9,Tecnología,IVA Responsable,Andrés Ruiz,andres.ruiz@empresa.tuv,0567-8901,S.A.,249854,2020-02-04,509100,General Roca,Argentina
+P00132,Andrés Ruiz,30-12345678-9,Tecnología,IVA Responsable,Andrés Ruiz,andres.ruiz@empresa.tuv,0567-8901,S.A.,229698,2020-05-04,509100,General Roca,Argentina
+P00132,Andrés Ruiz,30-12345678-9,Tecnología,IVA Responsable,Andrés Ruiz,andres.ruiz@empresa.tuv,0567-8901,S.A.,192599,2020-08-04,509100,General Roca,Argentina
+P00132,Andrés Ruiz,30-12345678-9,Tecnología,IVA Responsable,Andrés Ruiz,andres.ruiz@empresa.tuv,0567-8901,S.A.,152846,2020-12-25,509100,General Roca,Argentina
+P00132,Andrés Ruiz,30-12345678-9,Tecnología,IVA Responsable,Andrés Ruiz,andres.ruiz@empresa.tuv,0567-8901,S.A.,110878,2021-01-07,509100,General Roca,Argentina
+P00132,Andrés Ruiz,30-12345678-9,Tecnología,IVA Responsable,Andrés Ruiz,andres.ruiz@empresa.tuv,0567-8901,S.A.,48679,2022-09-22,509100,General Roca,Argentina
+P00132,Andrés Ruiz,30-12345678-9,Tecnología,IVA Responsable,Andrés Ruiz,andres.ruiz@empresa.tuv,0567-8901,S.A.,50488,2022-10-22,509100,General Roca,Argentina
+P00133,Daniela Fernández,27-23456789-4,Energía Eólica,Monotributista,Daniela Fernández,daniela.fernandez@empresa.uvw,0678-9012,S.A.,127726,2020-02-07,501400,Junín,Argentina
+P00133,Daniela Fernández,27-23456789-4,Energía Eólica,Monotributista,Daniela Fernández,daniela.fernandez@empresa.uvw,0678-9012,S.A.,102297,2020-05-07,501400,Junín,Argentina
+P00133,Daniela Fernández,27-23456789-4,Energía Eólica,Monotributista,Daniela Fernández,daniela.fernandez@empresa.uvw,0678-9012,S.A.,150974,2020-08-07,501400,Junín,Argentina
+P00133,Daniela Fernández,27-23456789-4,Energía Eólica,Monotributista,Daniela Fernández,daniela.fernandez@empresa.uvw,0678-9012,S.A.,256144,2020-12-28,501400,Junín,Argentina
+P00133,Daniela Fernández,27-23456789-4,Energía Eólica,Monotributista,Daniela Fernández,daniela.fernandez@empresa.uvw,0678-9012,S.A.,31099,2021-01-10,501400,Junín,Argentina
+P00133,Daniela Fernández,27-23456789-4,Energía Eólica,Monotributista,Daniela Fernández,daniela.fernandez@empresa.uvw,0678-9012,S.A.,194151,2022-09-25,501400,Junín,Argentina
+P00133,Daniela Fernández,27-23456789-4,Energía Eólica,Monotributista,Daniela Fernández,daniela.fernandez@empresa.uvw,0678-9012,S.A.,126804,2022-10-25,501400,Junín,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,243396,2020-02-10,516000,Buenos Aires,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,24358,2020-05-10,516000,Buenos Aires,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,60625,2020-08-10,516000,Buenos Aires,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,161646,2020-10-01,516000,Buenos Aires,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,135225,2021-01-01,516000,Buenos Aires,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,249165,2021-01-13,516000,Buenos Aires,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,219837,2022-09-28,516000,Buenos Aires,Argentina
+P00134,Luis Gómez,23-34567890-7,Construcción,IVA Responsable,Luis Gómez,luis.gomez@empresa.xyz,0789-0123,S.R.L.,173152,2021-01-28,516000,Buenos Aires,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,46325,2020-02-13,507100,Rafaela,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,165797,2020-05-13,507100,Rafaela,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,294815,2020-08-13,507100,Rafaela,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,57988,2020-10-04,507100,Rafaela,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,89516,2021-01-04,507100,Rafaela,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,281214,2021-01-16,507100,Rafaela,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,225311,2022-10-01,507100,Rafaela,Argentina
+P00135,Marcela Jiménez,33-45678901-8,Agroindustria,Monotributista,Marcela Jiménez,marcela.jimenez@empresa.abc,0890-1234,Cooperativa,170553,2021-02-01,507100,Rafaela,Argentina
+P00136,Roberto Díaz,20-56789012-3,Tecnología,IVA Responsable,Roberto Díaz,roberto.diaz@empresa.def,0912-3456,S.A.,220987,2020-02-16,509100,Rio Gallegos,Argentina
+P00136,Roberto Díaz,20-56789012-3,Tecnología,IVA Responsable,Roberto Díaz,roberto.diaz@empresa.def,0912-3456,S.A.,260964,2020-05-16,509100,Rio Gallegos,Argentina
+P00136,Roberto Díaz,20-56789012-3,Tecnología,IVA Responsable,Roberto Díaz,roberto.diaz@empresa.def,0912-3456,S.A.,45468,2020-08-16,509100,Rio Gallegos,Argentina
+P00136,Roberto Díaz,20-56789012-3,Tecnología,IVA Responsable,Roberto Díaz,roberto.diaz@empresa.def,0912-3456,S.A.,135113,2020-10-07,509100,Rio Gallegos,Argentina
+P00136,Roberto Díaz,20-56789012-3,Tecnología,IVA Responsable,Roberto Díaz,roberto.diaz@empresa.def,0912-3456,S.A.,148154,2021-01-19,509100,Rio Gallegos,Argentina
+P00136,Roberto Díaz,20-56789012-3,Tecnología,IVA Responsable,Roberto Díaz,roberto.diaz@empresa.def,0912-3456,S.A.,247527,2022-10-04,509100,Rio Gallegos,Argentina
+P00136,Roberto Díaz,20-56789012-3,Tecnología,IVA Responsable,Roberto Díaz,roberto.diaz@empresa.def,0912-3456,S.A.,212736,2021-02-04,509100,Rio Gallegos,Argentina
+P00137,Camila Martínez,30-67890123-4,Energía Solar,Monotributista,Camila Martínez,camila.martinez@empresa.ghi,0123-4567,S.R.L.,221445,2020-02-19,501400,Buenos Aires,Argentina
+P00137,Camila Martínez,30-67890123-4,Energía Solar,Monotributista,Camila Martínez,camila.martinez@empresa.ghi,0123-4567,S.R.L.,228513,2020-05-19,501400,Buenos Aires,Argentina
+P00137,Camila Martínez,30-67890123-4,Energía Solar,Monotributista,Camila Martínez,camila.martinez@empresa.ghi,0123-4567,S.R.L.,247726,2020-08-19,501400,Buenos Aires,Argentina
+P00137,Camila Martínez,30-67890123-4,Energía Solar,Monotributista,Camila Martínez,camila.martinez@empresa.ghi,0123-4567,S.R.L.,295302,2020-10-10,501400,Buenos Aires,Argentina
+P00137,Camila Martínez,30-67890123-4,Energía Solar,Monotributista,Camila Martínez,camila.martinez@empresa.ghi,0123-4567,S.R.L.,217867,2021-01-22,501400,Buenos Aires,Argentina
+P00137,Camila Martínez,30-67890123-4,Energía Solar,Monotributista,Camila Martínez,camila.martinez@empresa.ghi,0123-4567,S.R.L.,223875,2022-10-07,501400,Buenos Aires,Argentina
+P00137,Camila Martínez,30-67890123-4,Energía Solar,Monotributista,Camila Martínez,camila.martinez@empresa.ghi,0123-4567,S.R.L.,151708,2021-02-07,501400,Buenos Aires,Argentina
+P00138,Santiago López,27-78901234-6,Transporte,IVA Responsable,Santiago López,santiago.lopez@empresa.jkl,0345-6789,S.A.,94895,2020-02-22,502100,Mendoza,Argentina
+P00138,Santiago López,27-78901234-6,Transporte,IVA Responsable,Santiago López,santiago.lopez@empresa.jkl,0345-6789,S.A.,91564,2020-05-22,502100,Mendoza,Argentina
+P00138,Santiago López,27-78901234-6,Transporte,IVA Responsable,Santiago López,santiago.lopez@empresa.jkl,0345-6789,S.A.,175561,2020-08-22,502100,Mendoza,Argentina
+P00138,Santiago López,27-78901234-6,Transporte,IVA Responsable,Santiago López,santiago.lopez@empresa.jkl,0345-6789,S.A.,73794,2020-10-13,502100,Mendoza,Argentina
+P00138,Santiago López,27-78901234-6,Transporte,IVA Responsable,Santiago López,santiago.lopez@empresa.jkl,0345-6789,S.A.,73794,2021-01-25,502100,Mendoza,Argentina
+P00138,Santiago López,27-78901234-6,Transporte,IVA Responsable,Santiago López,santiago.lopez@empresa.jkl,0345-6789,S.A.,148032,2022-10-10,502100,Mendoza,Argentina
+P00138,Santiago López,27-78901234-6,Transporte,IVA Responsable,Santiago López,santiago.lopez@empresa.jkl,0345-6789,S.A.,279688,2021-02-10,502100,Mendoza,Argentina
+P00139,Fernanda García,23-89012345-9,Construcción,Monotributista,Fernanda García,fernanda.garcia@empresa.mno,0456-7890,S.R.L.,139765,2020-02-25,516000,Cordoba,Argentina
+P00139,Fernanda García,23-89012345-9,Construcción,Monotributista,Fernanda García,fernanda.garcia@empresa.mno,0456-7890,S.R.L.,143944,2020-05-25,516000,Cordoba,Argentina
+P00139,Fernanda García,23-89012345-9,Construcción,Monotributista,Fernanda García,fernanda.garcia@empresa.mno,0456-7890,S.R.L.,158384,2020-08-25,516000,Cordoba,Argentina
+P00139,Fernanda García,23-89012345-9,Construcción,Monotributista,Fernanda García,fernanda.garcia@empresa.mno,0456-7890,S.R.L.,106432,2020-10-16,516000,Cordoba,Argentina
+P00139,Fernanda García,23-89012345-9,Construcción,Monotributista,Fernanda García,fernanda.garcia@empresa.mno,0456-7890,S.R.L.,106432,2021-01-28,516000,Cordoba,Argentina
+P00139,Fernanda García,23-89012345-9,Construcción,Monotributista,Fernanda García,fernanda.garcia@empresa.mno,0456-7890,S.R.L.,42668,2022-10-13,516000,Cordoba,Argentina
+P00139,Fernanda García,23-89012345-9,Construcción,Monotributista,Fernanda García,fernanda.garcia@empresa.mno,0456-7890,S.R.L.,72059,2021-02-13,516000,Cordoba,Argentina
+P00140,Nicolás Castillo,33-90123456-0,Agroindustria,IVA Responsable,Nicolás Castillo,nicolas.castillo@empresa.pqr,0567-8901,Cooperativa,248599,2020-02-28,507100,Rosario,Argentina
+P00140,Nicolás Castillo,33-90123456-0,Agroindustria,IVA Responsable,Nicolás Castillo,nicolas.castillo@empresa.pqr,0567-8901,Cooperativa,159738,2020-05-28,507100,Rosario,Argentina
+P00140,Nicolás Castillo,33-90123456-0,Agroindustria,IVA Responsable,Nicolás Castillo,nicolas.castillo@empresa.pqr,0567-8901,Cooperativa,122240,2020-08-28,507100,Rosario,Argentina
+P00140,Nicolás Castillo,33-90123456-0,Agroindustria,IVA Responsable,Nicolás Castillo,nicolas.castillo@empresa.pqr,0567-8901,Cooperativa,90675,2020-10-19,507100,Rosario,Argentina
+P00140,Nicolás Castillo,33-90123456-0,Agroindustria,IVA Responsable,Nicolás Castillo,nicolas.castillo@empresa.pqr,0567-8901,Cooperativa,90675,2021-02-01,507100,Rosario,Argentina
+P00140,Nicolás Castillo,33-90123456-0,Agroindustria,IVA Responsable,Nicolás Castillo,nicolas.castillo@empresa.pqr,0567-8901,Cooperativa,81679,2022-10-16,507100,Rosario,Argentina
+P00140,Nicolás Castillo,33-90123456-0,Agroindustria,IVA Responsable,Nicolás Castillo,nicolas.castillo@empresa.pqr,0567-8901,Cooperativa,117043,2021-02-16,507100,Rosario,Argentina
+P00141,Juliana Pérez,20-01234567-4,Consultoría,Monotributista,Juliana Pérez,juliana.perez@empresa.stu,0678-9012,S.R.L.,130696,2020-03-02,501400,San Juan,Argentina
+P00141,Juliana Pérez,20-01234567-4,Consultoría,Monotributista,Juliana Pérez,juliana.perez@empresa.stu,0678-9012,S.R.L.,207725,2020-06-01,501400,San Juan,Argentina
+P00141,Juliana Pérez,20-01234567-4,Consultoría,Monotributista,Juliana Pérez,juliana.perez@empresa.stu,0678-9012,S.R.L.,121055,2020-09-01,501400,San Juan,Argentina
+P00141,Juliana Pérez,20-01234567-4,Consultoría,Monotributista,Juliana Pérez,juliana.perez@empresa.stu,0678-9012,S.R.L.,252093,2020-10-22,501400,San Juan,Argentina
+P00141,Juliana Pérez,20-01234567-4,Consultoría,Monotributista,Juliana Pérez,juliana.perez@empresa.stu,0678-9012,S.R.L.,252093,2021-02-04,501400,San Juan,Argentina
+P00141,Juliana Pérez,20-01234567-4,Consultoría,Monotributista,Juliana Pérez,juliana.perez@empresa.stu,0678-9012,S.R.L.,280320,2022-10-19,501400,San Juan,Argentina
+P00141,Juliana Pérez,20-01234567-4,Consultoría,Monotributista,Juliana Pérez,juliana.perez@empresa.stu,0678-9012,S.R.L.,11442,2021-02-19,501400,San Juan,Argentina
+P00142,Diego Fernández,30-12345678-5,Tecnología,IVA Responsable,Diego Fernández,diego.fernandez@empresa.uvw,0789-0123,S.A.,88206,2020-03-05,509100,San Rafael,Argentina
+P00142,Diego Fernández,30-12345678-5,Tecnología,IVA Responsable,Diego Fernández,diego.fernandez@empresa.uvw,0789-0123,S.A.,103821,2020-06-04,509100,San Rafael,Argentina
+P00142,Diego Fernández,30-12345678-5,Tecnología,IVA Responsable,Diego Fernández,diego.fernandez@empresa.uvw,0789-0123,S.A.,52184,2020-09-04,509100,San Rafael,Argentina
+P00142,Diego Fernández,30-12345678-5,Tecnología,IVA Responsable,Diego Fernández,diego.fernandez@empresa.uvw,0789-0123,S.A.,85168,2020-10-25,509100,San Rafael,Argentina
+P00142,Diego Fernández,30-12345678-5,Tecnología,IVA Responsable,Diego Fernández,diego.fernandez@empresa.uvw,0789-0123,S.A.,85168,2021-02-07,509100,San Rafael,Argentina
+P00142,Diego Fernández,30-12345678-5,Tecnología,IVA Responsable,Diego Fernández,diego.fernandez@empresa.uvw,0789-0123,S.A.,34695,2022-10-22,509100,San Rafael,Argentina
+P00142,Diego Fernández,30-12345678-5,Tecnología,IVA Responsable,Diego Fernández,diego.fernandez@empresa.uvw,0789-0123,S.A.,10587,2022-09-22,509100,San Rafael,Argentina
+P00143,Mariana Gómez,27-23456789-6,Energía Eólica,Monotributista,Mariana Gómez,mariana.gomez@empresa.xyz,0890-1234,S.A.,255727,2020-03-08,501400,Posadas,Argentina
+P00143,Mariana Gómez,27-23456789-6,Energía Eólica,Monotributista,Mariana Gómez,mariana.gomez@empresa.xyz,0890-1234,S.A.,253296,2020-06-07,501400,Posadas,Argentina
+P00143,Mariana Gómez,27-23456789-6,Energía Eólica,Monotributista,Mariana Gómez,mariana.gomez@empresa.xyz,0890-1234,S.A.,200021,2020-09-07,501400,Posadas,Argentina
+P00143,Mariana Gómez,27-23456789-6,Energía Eólica,Monotributista,Mariana Gómez,mariana.gomez@empresa.xyz,0890-1234,S.A.,278387,2020-10-28,501400,Posadas,Argentina
+P00143,Mariana Gómez,27-23456789-6,Energía Eólica,Monotributista,Mariana Gómez,mariana.gomez@empresa.xyz,0890-1234,S.A.,278387,2021-02-10,501400,Posadas,Argentina
+P00143,Mariana Gómez,27-23456789-6,Energía Eólica,Monotributista,Mariana Gómez,mariana.gomez@empresa.xyz,0890-1234,S.A.,82635,2022-10-25,501400,Posadas,Argentina
+P00143,Mariana Gómez,27-23456789-6,Energía Eólica,Monotributista,Mariana Gómez,mariana.gomez@empresa.xyz,0890-1234,S.A.,13020,2022-09-25,501400,Posadas,Argentina
+P00144,Manuel Rodríguez,23-34567890-1,Construcción,IVA Responsable,Manuel Rodríguez,manuel.rodriguez@empresa.def,0912-3456,S.R.L.,295728,2020-03-11,516000,Bahía Blanca,Argentina
+P00144,Manuel Rodríguez,23-34567890-1,Construcción,IVA Responsable,Manuel Rodríguez,manuel.rodriguez@empresa.def,0912-3456,S.R.L.,201749,2020-06-10,516000,Bahía Blanca,Argentina
+P00144,Manuel Rodríguez,23-34567890-1,Construcción,IVA Responsable,Manuel Rodríguez,manuel.rodriguez@empresa.def,0912-3456,S.R.L.,269410,2020-09-10,516000,Bahía Blanca,Argentina
+P00144,Manuel Rodríguez,23-34567890-1,Construcción,IVA Responsable,Manuel Rodríguez,manuel.rodriguez@empresa.def,0912-3456,S.R.L.,156276,2020-11-01,516000,Bahía Blanca,Argentina
+P00144,Manuel Rodríguez,23-34567890-1,Construcción,IVA Responsable,Manuel Rodríguez,manuel.rodriguez@empresa.def,0912-3456,S.R.L.,156276,2021-02-13,516000,Bahía Blanca,Argentina
+P00144,Manuel Rodríguez,23-34567890-1,Construcción,IVA Responsable,Manuel Rodríguez,manuel.rodriguez@empresa.def,0912-3456,S.R.L.,124428,2021-01-28,516000,Bahía Blanca,Argentina
+P00144,Manuel Rodríguez,23-34567890-1,Construcción,IVA Responsable,Manuel Rodríguez,manuel.rodriguez@empresa.def,0912-3456,S.R.L.,217800,2022-09-28,516000,Bahía Blanca,Argentina
+P00145,Clara Jiménez,33-45678901-2,Agroindustria,Monotributista,Clara Jiménez,clara.jimenez@empresa.ghi,0123-6789,Cooperativa,59893,2020-03-14,507100,Resistencia,Argentina
+P00145,Clara Jiménez,33-45678901-2,Agroindustria,Monotributista,Clara Jiménez,clara.jimenez@empresa.ghi,0123-6789,Cooperativa,43682,2020-06-13,507100,Resistencia,Argentina
+P00145,Clara Jiménez,33-45678901-2,Agroindustria,Monotributista,Clara Jiménez,clara.jimenez@empresa.ghi,0123-6789,Cooperativa,228649,2020-09-13,507100,Resistencia,Argentina
+P00145,Clara Jiménez,33-45678901-2,Agroindustria,Monotributista,Clara Jiménez,clara.jimenez@empresa.ghi,0123-6789,Cooperativa,28845,2020-11-04,507100,Resistencia,Argentina
+P00145,Clara Jiménez,33-45678901-2,Agroindustria,Monotributista,Clara Jiménez,clara.jimenez@empresa.ghi,0123-6789,Cooperativa,28845,2021-02-16,507100,Resistencia,Argentina
+P00145,Clara Jiménez,33-45678901-2,Agroindustria,Monotributista,Clara Jiménez,clara.jimenez@empresa.ghi,0123-6789,Cooperativa,61059,2021-02-01,507100,Resistencia,Argentina
+P00145,Clara Jiménez,33-45678901-2,Agroindustria,Monotributista,Clara Jiménez,clara.jimenez@empresa.ghi,0123-6789,Cooperativa,268049,2022-10-01,507100,Resistencia,Argentina
+P00146,Eduardo Reyes,20-56789012-5,Tecnología,IVA Responsable,Eduardo Reyes,eduardo.reyes@empresa.jkl,0345-6789,S.A.,44782,2020-03-17,509100,Formosa,Argentina
+P00146,Eduardo Reyes,20-56789012-5,Tecnología,IVA Responsable,Eduardo Reyes,eduardo.reyes@empresa.jkl,0345-6789,S.A.,36878,2020-06-16,509100,Formosa,Argentina
+P00146,Eduardo Reyes,20-56789012-5,Tecnología,IVA Responsable,Eduardo Reyes,eduardo.reyes@empresa.jkl,0345-6789,S.A.,47698,2020-09-16,509100,Formosa,Argentina
+P00146,Eduardo Reyes,20-56789012-5,Tecnología,IVA Responsable,Eduardo Reyes,eduardo.reyes@empresa.jkl,0345-6789,S.A.,298913,2020-11-07,509100,Formosa,Argentina
+P00146,Eduardo Reyes,20-56789012-5,Tecnología,IVA Responsable,Eduardo Reyes,eduardo.reyes@empresa.jkl,0345-6789,S.A.,11442,2021-02-19,509100,Formosa,Argentina
+P00146,Eduardo Reyes,20-56789012-5,Tecnología,IVA Responsable,Eduardo Reyes,eduardo.reyes@empresa.jkl,0345-6789,S.A.,183119,2021-02-04,509100,Formosa,Argentina
+P00146,Eduardo Reyes,20-56789012-5,Tecnología,IVA Responsable,Eduardo Reyes,eduardo.reyes@empresa.jkl,0345-6789,S.A.,229698,2022-10-04,509100,Formosa,Argentina
+P00147,Laura Castillo,30-67890123-6,Energía Solar,Monotributista,Laura Castillo,laura.castillo@empresa.mno,0456-7890,S.R.L.,195892,2020-03-20,501400,Santiago del Estero,Argentina
+P00147,Laura Castillo,30-67890123-6,Energía Solar,Monotributista,Laura Castillo,laura.castillo@empresa.mno,0456-7890,S.R.L.,113452,2020-06-19,501400,Santiago del Estero,Argentina
+P00147,Laura Castillo,30-67890123-6,Energía Solar,Monotributista,Laura Castillo,laura.castillo@empresa.mno,0456-7890,S.R.L.,20782,2020-09-19,501400,Santiago del Estero,Argentina
+P00147,Laura Castillo,30-67890123-6,Energía Solar,Monotributista,Laura Castillo,laura.castillo@empresa.mno,0456-7890,S.R.L.,10509,2020-11-10,501400,Santiago del Estero,Argentina
+P00147,Laura Castillo,30-67890123-6,Energía Solar,Monotributista,Laura Castillo,laura.castillo@empresa.mno,0456-7890,S.R.L.,10587,2021-02-22,501400,Santiago del Estero,Argentina
+P00147,Laura Castillo,30-67890123-6,Energía Solar,Monotributista,Laura Castillo,laura.castillo@empresa.mno,0456-7890,S.R.L.,202693,2021-02-07,501400,Santiago del Estero,Argentina
+P00147,Laura Castillo,30-67890123-6,Energía Solar,Monotributista,Laura Castillo,laura.castillo@empresa.mno,0456-7890,S.R.L.,102297,2022-10-07,501400,Santiago del Estero,Argentina
+P00148,Alejandro Rivas,27-78901234-9,Transporte,IVA Responsable,Alejandro Rivas,alejandro.rivas@empresa.pqr,0567-8901,S.A.,108357,2020-03-23,502100,Río Cuarto,Argentina
+P00148,Alejandro Rivas,27-78901234-9,Transporte,IVA Responsable,Alejandro Rivas,alejandro.rivas@empresa.pqr,0567-8901,S.A.,280161,2020-06-22,502100,Río Cuarto,Argentina
+P00148,Alejandro Rivas,27-78901234-9,Transporte,IVA Responsable,Alejandro Rivas,alejandro.rivas@empresa.pqr,0567-8901,S.A.,138216,2020-09-22,502100,Río Cuarto,Argentina
+P00148,Alejandro Rivas,27-78901234-9,Transporte,IVA Responsable,Alejandro Rivas,alejandro.rivas@empresa.pqr,0567-8901,S.A.,239084,2020-11-13,502100,Río Cuarto,Argentina
+P00148,Alejandro Rivas,27-78901234-9,Transporte,IVA Responsable,Alejandro Rivas,alejandro.rivas@empresa.pqr,0567-8901,S.A.,13020,2021-02-25,502100,Río Cuarto,Argentina
+P00148,Alejandro Rivas,27-78901234-9,Transporte,IVA Responsable,Alejandro Rivas,alejandro.rivas@empresa.pqr,0567-8901,S.A.,26156,2021-02-10,502100,Río Cuarto,Argentina
+P00148,Alejandro Rivas,27-78901234-9,Transporte,IVA Responsable,Alejandro Rivas,alejandro.rivas@empresa.pqr,0567-8901,S.A.,24358,2022-10-10,502100,Río Cuarto,Argentina
+P00149,Verónica Martínez,23-89012346-2,Construcción,Monotributista,Verónica Martínez,veronica.martinez@empresa.stu,0678-9012,S.R.L.,221537,2020-03-26,516000,Buenos Aires,Argentina
+P00149,Verónica Martínez,23-89012346-2,Construcción,Monotributista,Verónica Martínez,veronica.martinez@empresa.stu,0678-9012,S.R.L.,164567,2020-06-25,516000,Buenos Aires,Argentina
+P00149,Verónica Martínez,23-89012346-2,Construcción,Monotributista,Verónica Martínez,veronica.martinez@empresa.stu,0678-9012,S.R.L.,91071,2020-09-25,516000,Buenos Aires,Argentina
+P00149,Verónica Martínez,23-89012346-2,Construcción,Monotributista,Verónica Martínez,veronica.martinez@empresa.stu,0678-9012,S.R.L.,98759,2020-11-16,516000,Buenos Aires,Argentina
+P00149,Verónica Martínez,23-89012346-2,Construcción,Monotributista,Verónica Martínez,veronica.martinez@empresa.stu,0678-9012,S.R.L.,217800,2021-02-28,516000,Buenos Aires,Argentina
+P00149,Verónica Martínez,23-89012346-2,Construcción,Monotributista,Verónica Martínez,veronica.martinez@empresa.stu,0678-9012,S.R.L.,295351,2021-02-13,516000,Buenos Aires,Argentina
+P00149,Verónica Martínez,23-89012346-2,Construcción,Monotributista,Verónica Martínez,veronica.martinez@empresa.stu,0678-9012,S.R.L.,165797,2022-10-13,516000,Buenos Aires,Argentina
+P00150,Gabriel López,33-90123456-3,Agroindustria,IVA Responsable,Gabriel López,gabriel.lopez@empresa.uvw,0789-0123,Cooperativa,277194,2020-03-29,507100,Villa María,Argentina
+P00150,Gabriel López,33-90123456-3,Agroindustria,IVA Responsable,Gabriel López,gabriel.lopez@empresa.uvw,0789-0123,Cooperativa,137527,2020-06-28,507100,Villa María,Argentina
+P00150,Gabriel López,33-90123456-3,Agroindustria,IVA Responsable,Gabriel López,gabriel.lopez@empresa.uvw,0789-0123,Cooperativa,157821,2020-09-28,507100,Villa María,Argentina
+P00150,Gabriel López,33-90123456-3,Agroindustria,IVA Responsable,Gabriel López,gabriel.lopez@empresa.uvw,0789-0123,Cooperativa,22735,2020-11-19,507100,Villa María,Argentina
+P00150,Gabriel López,33-90123456-3,Agroindustria,IVA Responsable,Gabriel López,gabriel.lopez@empresa.uvw,0789-0123,Cooperativa,268049,2021-03-01,507100,Villa María,Argentina
+P00150,Gabriel López,33-90123456-3,Agroindustria,IVA Responsable,Gabriel López,gabriel.lopez@empresa.uvw,0789-0123,Cooperativa,195051,2021-02-16,507100,Villa María,Argentina
+P00150,Gabriel López,33-90123456-3,Agroindustria,IVA Responsable,Gabriel López,gabriel.lopez@empresa.uvw,0789-0123,Cooperativa,260964,2022-10-16,507100,Villa María,Argentina
