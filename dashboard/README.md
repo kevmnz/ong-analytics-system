@@ -20,19 +20,19 @@ Este dashboard fue diseñado para dar visibilidad financiera a una organización
 El dashboard sigue una estructura **top-down** (de lo general a lo particular), que es el estándar en dashboards ejecutivos:
 
 ```
-┌─────────────────────────────────────────┐
-│  FILTROS GLOBALES (período, tipo)      │
-├─────────────────────────────────────────┤
-│  KPIs: Resumen ejecutivo de un vistazo  │
-├─────────────────────────────────────────┤
-│  Tendencias: Evolución temporal         │
-├─────────────────────────────────────────┤
-│  Rankings: Top donantes / proveedores   │
-├─────────────────────────────────────────┤
-│  Distribución: Composición por categoría│
-├─────────────────────────────────────────┤
+┌──────────────────────────────────────────┐
+│  FILTROS GLOBALES (período, tipo)        │
+├──────────────────────────────────────────┤
+│  KPIs: Resumen ejecutivo de un vistazo   │
+├──────────────────────────────────────────┤
+│  Tendencias: Evolución temporal          │
+├──────────────────────────────────────────┤
+│  Rankings: Top donantes / proveedores    │
+├──────────────────────────────────────────┤
+│  Distribución: Composición por categoría │
+├──────────────────────────────────────────┤
 │  Detalle: Tabla con todos los movimientos│
-└─────────────────────────────────────────┘
+└──────────────────────────────────────────┘
 ```
 
 ---
@@ -41,7 +41,7 @@ El dashboard sigue una estructura **top-down** (de lo general a lo particular), 
 
 ### 1. KPI Cards - Resumen Ejecutivo
 
-**Qué muestran**: Total Ingresos, Total Egresos, Balance Neto, Cantidad de Donantes, Cantidad de Proveedores
+**Qué muestran**: Total Ingresos, Total Egresos, Balance Neto, Cantidad de Donantes, Cantidad de Proveedores.
 
 **Por qué cards y no gráficos**: Los KPIs son números que necesitan leerse de un vistazo. Un card comunica inmediatamente "este es el número que importa". Es la primera capa del dashboard porque responde a la pregunta más básica: **¿cómo estamos?**
 
@@ -70,9 +70,9 @@ El dashboard sigue una estructura **top-down** (de lo general a lo particular), 
 **Por qué barras horizontales y no verticales**: Los nombres de donantes y proveedores son textos largos. Las barras horizontales permiten leer los nombres sin rotar texto, lo que mejora la legibilidad. Ordenar de mayor a menor aplica el **principio de Pareto**: típicamente el 20% de los donantes aporta el 80% de los ingresos.
 
 **Qué comunica**:
-- Quiénes son los actores clave de la organización
-- Dónde está concentrado el riesgo (si un solo donante representa gran parte de los ingresos)
-- Qué proveedores reciben mayor volumen de pagos
+- Quiénes son los actores clave de la organización.
+- Dónde está concentrado el riesgo (si un solo donante representa gran parte de los ingresos).
+- Qué proveedores reciben mayor volumen de pagos.
 
 ---
 
@@ -83,9 +83,9 @@ El dashboard sigue una estructura **top-down** (de lo general a lo particular), 
 **Por qué torta**: Cuando se necesita mostrar **composición** (cuánto representa cada parte del total), un gráfico de torta es la visualización más intuitiva. El cerebro compara áreas circulares naturalmente. Se limita a categorías principales para evitar el "chart junk" de demasiados segmentos.
 
 **Qué comunica**:
-- Cómo se distribuyen los gastos entre categorías
-- Si hay una categoría que domina sobre las demás
-- La diversificación (o concentración) del gasto
+- Cómo se distribuyen los gastos entre categorías.
+- Si hay una categoría que domina sobre las demás.
+- La diversificación (o concentración) del gasto.
 
 ---
 
@@ -102,8 +102,8 @@ El dashboard sigue una estructura **top-down** (de lo general a lo particular), 
 ### 6. Filtros Interactivos
 
 **Filtros implementados**:
-- **Rango de fechas**: Permite analizar cualquier período
-- **Tipo de movimiento**: Ingresos / Egresos / Todos
+- **Rango de fechas**: Permite analizar cualquier período.
+- **Tipo de movimiento**: Ingresos / Egresos / Todos.
 
 **Por qué filtros**: Un dashboard sin filtros es una foto estática. Con filtros, se convierte en una **herramienta de exploración**. Un contador puede aislar un trimestre problemático, un auditor puede filtrar por un proveedor específico, la directiva puede ver la evolución anual.
 
@@ -143,7 +143,6 @@ Looker Studio (visualización)
 |------------|-------------|
 | Visualización | Looker Studio (Google) |
 | Fuente de datos | Google Sheets |
-| Base de datos | PostgreSQL (escalabilidad futura) |
 | ETL | Python + Pandas |
 
 ---
