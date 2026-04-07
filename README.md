@@ -6,8 +6,6 @@ Pipeline de datos para gestión contable de organizaciones sin fines de lucro.
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=flat-square&logo=python)
 ![LookerStudio](https://img.shields.io/badge/Looker%20Studio-Google-4285F4?style=flat-square&logo=google)
 
-<!-- INSERTAR IMAGEN: Screenshot del dashboard completo de Looker Studio -->
-<!-- ![Dashboard Preview](docs/screenshots/dashboard-preview.png) -->
 
 ---
 
@@ -26,8 +24,8 @@ El proyecto consistió en la ingesta de datos provenientes de archivos .xlsx y .
 **Herramientas**: Google Sheets + Excel
 **Resultado**: Dashboard básico con datos limpios
 
-<!-- INSERTAR IMAGEN: Screenshot del dashboard del Sprint 1 o del Excel original -->
-<!-- ![Sprint 1 - Dashboard](docs/screenshots/sprint1-dashboard.png) -->
+
+<!-- ![Sprint 1 - Dashboard](docs/screenshots/dashboard_sheets.png) -->
 
 **Qué aprendí**: La importancia crítica de la integridad de los datos antes del análisis. Un archivo con datos mezclados, formatos inconsistentes y registros desordenados es imposible de mantener. Dedicar tiempo a estructurar y limpiar la información es el único camino para obtener resultados confiables en un dashboard.
 
@@ -38,8 +36,9 @@ Nuevos archivos, más datos, más complejidad: movimientos contables, plan de cu
 **Herramientas**: Looker Studio + Google Sheets + Excel
 **Resultado**: Dashboard con KPIs, filtros interactivos y visualizaciones
 
-<!-- INSERTAR IMAGEN: Screenshot del dashboard de Looker Studio -->
-<!-- ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/sprint2-dashboard.png) -->
+<!-- ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/proveedores_dashboard.png) -->
+<!-- ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/donantes_dashboard.png) -->
+
 
 **Decisiones de visualización**:
 - KPI cards para métricas clave (un vistazo al estado financiero)
@@ -146,8 +145,6 @@ python scripts/cargar_datos.py
 
 ---
 
-
----
 
 ## Licencia
 
