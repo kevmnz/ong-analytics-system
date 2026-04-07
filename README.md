@@ -71,6 +71,8 @@ El dashboard funcionaba, pero los datos vivían en Google Sheets. Por iniciativa
 - 8 vistas analíticas predefinidas.
 - Procedimientos para baja/reactivación de donantes.
 
+Ver los scripts SQL y la guía de instalación en [`database/`](database/)
+
 ---
 
 ## Pipeline de Datos
