@@ -22,6 +22,7 @@ Datos contables de una ONG en Excel desorganizados: sin normalización, sin inte
 El proyecto consistió en la ingesta de datos provenientes de archivos .xlsx y .csv desorganizados. El proceso técnico incluyó la limpieza y normalización de la información para asegurar la integridad de los datos. Posteriormente, se transformaron en tablas dinámicas dentro de Google Sheets, las cuales sirvieron como motor principal para el desarrollo de un dashboard interactivo, cumpliendo con el requerimiento técnico de migrar el flujo de trabajo de Excel a Sheets.
 
 **Herramientas**: Google Sheets + Excel
+
 **Resultado**: Dashboard básico con datos limpios
 
 
@@ -34,6 +35,7 @@ El proyecto consistió en la ingesta de datos provenientes de archivos .xlsx y .
 Nuevos archivos, más datos, más complejidad: movimientos contables, plan de cuentas con 44 cuentas, donantes y proveedores. Aquí escalé a Looker Studio para un dashboard interactivo y profesional. El proceso de limpieza y normalización siguió la misma metodología del Sprint 1, pero a mayor escala.
 
 **Herramientas**: Looker Studio + Google Sheets + Excel
+
 **Resultado**: Dashboard con KPIs, filtros interactivos y visualizaciones
 
 ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/proveedores_dashboard.png)
