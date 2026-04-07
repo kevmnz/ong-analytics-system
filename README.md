@@ -56,8 +56,11 @@ El dashboard funcionaba, pero los datos vivían en Google Sheets. Por iniciativa
 **Herramientas**: PostgreSQL + Python + Pandas
 **Resultado**: 7 tablas normalizadas, sistema de auditoría, carga incremental
 
-<!-- INSERTAR IMAGEN: Screenshot de pgAdmin mostrando las tablas o del diagrama ER -->
-<!-- ![Database - pgAdmin](docs/screenshots/database-pgadmin.png) -->
+
+## Diagrama ER
+
+![Diagrama Entidad-Relación](docs/DIAGRAMA%20ER.ONG.drawio.svg)
+
 
 **Features**:
 - 7 tablas normalizadas con foreign keys y constraints
@@ -79,13 +82,6 @@ Excel → Python/Pandas → CSVs procesados → PostgreSQL
 **Nota**: La base de datos PostgreSQL se construyó a partir de los archivos procesados del Sprint 2, demostrando que el proyecto puede escalar más allá de Google Sheets.
 ---
 
-## Dashboard
-
-**[Ver Dashboard en Looker Studio](https://lookerstudio.google.com/reporting/f41cdd19-4981-401d-86e9-0dd185bf14d0)**
-
-Más detalles en [dashboard/README.md](dashboard/README.md)
-
----
 
 ## Estructura del Proyecto
 
@@ -124,7 +120,6 @@ ONG/
 |------------|------------|
 | Base de datos | PostgreSQL 18 |
 | ETL | Python 3.11+ / Pandas |
-| Visualización | Looker Studio / Google Sheets |
 | Diagramas | draw.io |
 
 ---
@@ -151,9 +146,6 @@ python scripts/cargar_datos.py
 
 ---
 
-## Diagrama ER
-
-![Diagrama Entidad-Relación](docs/DIAGRAMA%20ER.ONG.drawio.svg)
 
 ---
 
