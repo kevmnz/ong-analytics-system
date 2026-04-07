@@ -17,45 +17,45 @@ Datos contables de una ONG en Excel desorganizados: sin normalización, sin inte
 
 ## La Evolución
 
-### Sprint 1: Primer Acercamiento
+### Sprint 1: Primer Acercamiento.
 
 El proyecto consistió en la ingesta de datos provenientes de archivos .xlsx y .csv desorganizados. El proceso técnico incluyó la limpieza y normalización de la información para asegurar la integridad de los datos. Posteriormente, se transformaron en tablas dinámicas dentro de Google Sheets, las cuales sirvieron como motor principal para el desarrollo de un dashboard interactivo, cumpliendo con el requerimiento técnico de migrar el flujo de trabajo de Excel a Sheets.
 
-**Herramientas**: Google Sheets + Excel
+**Herramientas**: Google Sheets + Excel.
 
-**Resultado**: Dashboard básico con datos limpios
+**Resultado**: Dashboard básico con datos limpios.
 
 
 ![Sprint 1 - Dashboard](docs/screenshots/dashboard_sheets.png)
 
 **Qué aprendí**: La importancia crítica de la integridad de los datos antes del análisis. Un archivo con datos mezclados, formatos inconsistentes y registros desordenados es imposible de mantener. Dedicar tiempo a estructurar y limpiar la información es el único camino para obtener resultados confiables en un dashboard.
 
-### Sprint 2: Dashboard Profesional
+### Sprint 2: Dashboard Profesional.
 
 Nuevos archivos, más datos, más complejidad: movimientos contables, plan de cuentas con 44 cuentas, donantes y proveedores. Aquí escalé a Looker Studio para un dashboard interactivo y profesional. El proceso de limpieza y normalización siguió la misma metodología del Sprint 1, pero a mayor escala.
 
-**Herramientas**: Looker Studio + Google Sheets + Excel
+**Herramientas**: Looker Studio + Google Sheets + Excel.
 
-**Resultado**: Dashboard con KPIs, filtros interactivos y visualizaciones
+**Resultado**: Dashboard con KPIs, filtros interactivos y visualizaciones.
 
 ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/proveedores_dashboard.png)
 ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/donantes_dashboard.png)
 
 
 **Decisiones de visualización**:
-- KPI cards para métricas clave (un vistazo al estado financiero)
-- Gráfico de líneas para tendencias temporales (continuidad visual)
-- Barras horizontales para rankings (legibilidad de nombres largos)
-- Tabla de detalle para transparencia total (drill-down)
+- KPI cards para métricas clave (un vistazo al estado financiero).
+- Gráfico de líneas para tendencias temporales (continuidad visual).
+- Barras horizontales para rankings (legibilidad de nombres largos).
+- Tabla de detalle para transparencia total (drill-down).
 
 Ver [dashboard/README.md](dashboard/README.md) para el análisis completo de cada visualización.
 
-### Iniciativa Propia: Base de Datos Escalable
+### Iniciativa Propia: Base de Datos Escalable.
 
 El dashboard funcionaba, pero los datos vivían en Google Sheets. Por iniciativa propia (no era requerido en el curso), construí un pipeline completo con PostgreSQL para demostrar que el proyecto puede escalar a producción.
 
-**Herramientas**: PostgreSQL + Python + Pandas
-**Resultado**: 7 tablas normalizadas, sistema de auditoría, carga incremental
+**Herramientas**: PostgreSQL + Python + Pandas.
+**Resultado**: 7 tablas normalizadas, sistema de auditoría, carga incremental.
 
 
 ## Diagrama ER
@@ -64,12 +64,12 @@ El dashboard funcionaba, pero los datos vivían en Google Sheets. Por iniciativa
 
 
 **Features**:
-- 7 tablas normalizadas con foreign keys y constraints
-- Sistema de auditoría con JSONB (todo cambio queda registrado)
-- Triggers de validación (solo un estado activo por donante)
-- Carga incremental con detección de duplicados
-- 8 vistas analíticas predefinidas
-- Procedimientos para baja/reactivación de donantes
+- 7 tablas normalizadas con foreign keys y constraints.
+- Sistema de auditoría con JSONB (todo cambio queda registrado).
+- Triggers de validación (solo un estado activo por donante).
+- Carga incremental con detección de duplicados.
+- 8 vistas analíticas predefinidas.
+- Procedimientos para baja/reactivación de donantes.
 
 ---
 
@@ -84,7 +84,7 @@ Excel → Python/Pandas → CSVs procesados → PostgreSQL
 ---
 
 
-## Estructura del Proyecto
+## Estructura del Proyecto:
 
 ```
 ONG/
@@ -138,12 +138,12 @@ python scripts/cargar_datos.py
 
 ## Decisiones de Diseño
 
-1. **Normalización desde cero**: Datos originales sin estructura → modelo relacional
-2. **Validaciones en base de datos**: Constraints para garantizar integridad
-3. **Bitemporal pattern**: Historial completo de cambios de estado
-4. **Auditoría con JSONB**: Registro flexible de cambios
-5. **Carga incremental**: Solo se insertan datos nuevos, sin duplicados
-6. **Escalabilidad**: PostgreSQL para futuro (no era requerido en el curso)
+1. **Normalización desde cero**: Datos originales sin estructura → modelo relacional.
+2. **Validaciones en base de datos**: Constraints para garantizar integridad.
+3. **Bitemporal pattern**: Historial completo de cambios de estado.
+4. **Auditoría con JSONB**: Registro flexible de cambios.
+5. **Carga incremental**: Solo se insertan datos nuevos, sin duplicados.
+6. **Escalabilidad**: PostgreSQL para futuro (no era requerido en el curso).
 
 ---
 
