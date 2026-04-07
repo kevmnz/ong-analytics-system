@@ -25,6 +25,8 @@ El proyecto consistió en la ingesta de datos provenientes de archivos .xlsx y .
 
 **Resultado**: Dashboard básico con datos limpios.
 
+**[Ver dashboard en Google Sheets](https://docs.google.com/spreadsheets/d/1G3ReiW9rNJCDpYEeYT7x1DleLM82mc6qT6nqEKmhgOA/edit?usp=sharing)**
+
 
 ![Sprint 1 - Dashboard](docs/screenshots/dashboard_sheets.png)
 
@@ -37,6 +39,8 @@ Nuevos archivos, más datos, más complejidad: movimientos contables, plan de cu
 **Herramientas**: Looker Studio + Google Sheets + Excel.
 
 **Resultado**: Dashboard con KPIs, filtros interactivos y visualizaciones.
+
+**[Ver dashboard en Looker Studio](https://lookerstudio.google.com/reporting/f41cdd19-4981-401d-86e9-0dd185bf14d0)**
 
 ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/proveedores_dashboard.png)
 ![Sprint 2 - Looker Studio Dashboard](docs/screenshots/donantes_dashboard.png)
