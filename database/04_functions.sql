@@ -1,16 +1,6 @@
--- ============================================
--- bd_ong_06_functions.sql
--- Sistema Contable ONG - Funciones y Triggers
--- ============================================
--- Versión: 2.0
--- Fecha: 2026-04-06
--- Descripción: Procedimientos almacenados y triggers de validación
--- ============================================
+-- Sistema Contable ONG - Funciones, Procedimientos y Triggers
 
--- ============================================
--- FUNCION: Validar estado actual (solo uno por donante)
--- ============================================
-
+-- Función de validación para asegurar un solo estado actual activo por donante
 CREATE OR REPLACE FUNCTION trg_validar_estado_actual()
 RETURNS TRIGGER
 LANGUAGE plpgsql
@@ -33,26 +23,17 @@ BEGIN
 END;
 $$;
 
--- ============================================
--- TRIGGER: Validar estado actual (INSERT)
--- ============================================
-
+-- Trigger para validar el estado actual en inserciones
 CREATE TRIGGER trg_validar_estado_actual_insert
 BEFORE INSERT ON ESTADO_DONANTE
 FOR EACH ROW EXECUTE FUNCTION trg_validar_estado_actual();
 
--- ============================================
--- TRIGGER: Validar estado actual (UPDATE)
--- ============================================
-
+-- Trigger para validar el estado actual en actualizaciones
 CREATE TRIGGER trg_validar_estado_actual_update
 BEFORE UPDATE ON ESTADO_DONANTE
 FOR EACH ROW EXECUTE FUNCTION trg_validar_estado_actual();
 
--- ============================================
--- PROCEDURE: Dar de baja un donante
--- ============================================
-
+-- Procedimiento para dar de baja un donante cerrando su estado actual y creando el inactivo
 CREATE OR REPLACE PROCEDURE sp_dar_baja_donante(
     p_id_donante VARCHAR(20),
     p_fecha_baja DATE
@@ -78,10 +59,7 @@ BEGIN
 END;
 $$;
 
--- ============================================
--- PROCEDURE: Reactivar un donante dado de baja
--- ============================================
-
+-- Procedimiento para reactivar un donante cerrando su estado inactivo y creando el activo
 CREATE OR REPLACE PROCEDURE sp_reactivar_donante(
     p_id_donante VARCHAR(20),
     p_fecha_reactivacion DATE,
@@ -108,10 +86,7 @@ BEGIN
 END;
 $$;
 
--- ============================================
--- FUNCION: Obtener resumen financiero por período
--- ============================================
-
+-- Función para obtener ingresos, egresos y balance neto en un rango de fechas
 CREATE OR REPLACE FUNCTION fn_resumen_financiero(
     p_fecha_inicio DATE,
     p_fecha_fin DATE
@@ -137,10 +112,7 @@ BEGIN
 END;
 $$;
 
--- ============================================
--- FUNCION: Clasificar donor según actividad
--- ============================================
-
+-- Función para clasificar dinámicamente la actividad de un donante
 CREATE OR REPLACE FUNCTION fn_clasificar_donante(p_id_donante VARCHAR(20))
 RETURNS VARCHAR(50)
 LANGUAGE plpgsql
@@ -170,14 +142,3 @@ BEGIN
     END IF;
 END;
 $$;
-
--- ============================================
--- VERIFICACIÓN
--- ============================================
-
-SELECT '✅ Functions y Triggers creados' AS Mensaje;
-SELECT routine_name 
-FROM information_schema.routines 
-WHERE routine_schema = 'public' 
-AND routine_type = 'FUNCTION'
-ORDER BY routine_name;

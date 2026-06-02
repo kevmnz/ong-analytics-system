@@ -1,16 +1,6 @@
--- ============================================
--- bd_ong_07_auditoria.sql
--- Sistema Contable ONG - Sistema de Auditoría
--- ============================================
--- Versión: 2.0
--- Fecha: 2026-04-06
--- Descripción: Tabla y trigger de auditoría para movimientos contables
--- ============================================
+-- Sistema Contable ONG - Módulo de Auditoría
 
--- ============================================
--- FUNCION: Registrar cambios en movimientos
--- ============================================
-
+-- Función para capturar y registrar inserciones, modificaciones y eliminaciones
 CREATE OR REPLACE FUNCTION trg_auditoria_movimiento()
 RETURNS TRIGGER
 LANGUAGE plpgsql
@@ -52,18 +42,12 @@ BEGIN
 END;
 $$;
 
--- ============================================
--- TRIGGER: Auditoría de movimientos (INSERT/UPDATE/DELETE)
--- ============================================
-
+-- Trigger para ejecutar la función de auditoría en la tabla MOVIMIENTO_CONTABLE
 CREATE TRIGGER trg_auditoria_movimiento
 AFTER INSERT OR UPDATE OR DELETE ON MOVIMIENTO_CONTABLE
 FOR EACH ROW EXECUTE FUNCTION trg_auditoria_movimiento();
 
--- ============================================
--- FUNCION: Obtener historial de cambios de un movimiento
--- ============================================
-
+-- Función para recuperar el historial de auditoría de un movimiento específico
 CREATE OR REPLACE FUNCTION fn_historial_movimiento(p_id_movimiento INTEGER)
 RETURNS TABLE (
     ID_Auditoria BIGINT,
@@ -90,10 +74,7 @@ BEGIN
 END;
 $$;
 
--- ============================================
--- FUNCION: Obtener todos los cambios de un día
--- ============================================
-
+-- Función para recuperar todos los movimientos auditados de un día específico
 CREATE OR REPLACE FUNCTION fn_cambios_del_dia(p_fecha DATE DEFAULT CURRENT_DATE)
 RETURNS TABLE (
     ID_Auditoria BIGINT,
@@ -128,10 +109,7 @@ BEGIN
 END;
 $$;
 
--- ============================================
--- VISTA: Resumen de auditoría reciente
--- ============================================
-
+-- Vista de resumen para auditar los últimos 100 movimientos registrados
 CREATE OR REPLACE VIEW v_auditoria_reciente AS
 SELECT 
     a.Fecha_Hora,
@@ -154,15 +132,3 @@ SELECT
 FROM auditoria_movimientos a
 ORDER BY a.Fecha_Hora DESC
 LIMIT 100;
-
--- ============================================
--- VERIFICACIÓN
--- ============================================
-
-SELECT '✅ Sistema de auditoria implementado' AS Mensaje;
-SELECT COUNT(*) AS Total_Registros_Auditoria FROM auditoria_movimientos;
-SELECT 'Triggers activos:' AS Info;
-SELECT tgname, tablename 
-FROM pg_trigger t
-JOIN pg_class c ON t.relid = c.oid
-WHERE c.relname = 'movimiento_contable';

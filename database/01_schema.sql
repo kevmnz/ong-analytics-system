@@ -1,49 +1,23 @@
--- ============================================
--- bd_ong_00_schema.sql
 -- Sistema Contable ONG - Estructura de Base de Datos
--- ============================================
--- Versión: 2.0
--- Fecha: 2026-04-06
--- Autor: Kevin
--- Descripción: Schema principal con 7 tablas, índices y comentarios
--- ============================================
 
--- ============================================
--- PASO 1: CREAR LA BASE DE DATOS
--- ============================================
--- Ejecutar en pgAdmin o psql ANTES de correr este script:
--- 
--- CREATE DATABASE ong_contabilidad
---     WITH ENCODING 'UTF8'
---     LC_COLLATE = 'en_US.UTF-8'
---     LC_CTYPE = 'en_US.UTF-8'
---     TEMPLATE = template0;
---
--- Luego conectar: \c ong_contabilidad
--- O en pgAdmin: clic derecho > Connect
-
--- ============================================
--- PASO 2: ELIMINAR OBJETOS EXISTENTES (en orden correcto)
--- ============================================
-
--- Primero las vistas que dependen de tablas
+-- Eliminación de vistas existentes (en orden de dependencias)
 DROP VIEW IF EXISTS v_movimientos_completos CASCADE;
 DROP VIEW IF EXISTS v_resumen_donantes CASCADE;
 DROP VIEW IF EXISTS v_balance_general CASCADE;
 DROP VIEW IF EXISTS v_donantes_estado_actual CASCADE;
 
--- Funciones y triggers
+-- Eliminación de triggers y funciones
 DROP TRIGGER IF EXISTS trg_auditoria_movimiento ON MOVIMIENTO_CONTABLE;
 DROP TRIGGER IF EXISTS trg_validar_estado_actual_update ON ESTADO_DONANTE;
 DROP TRIGGER IF EXISTS trg_validar_estado_actual_insert ON ESTADO_DONANTE;
 DROP FUNCTION IF EXISTS trg_validar_estado_actual();
 DROP FUNCTION IF EXISTS trg_auditoria_movimiento();
 
--- Procedimientos
+-- Eliminación de procedimientos
 DROP PROCEDURE IF EXISTS sp_dar_baja_donante(VARCHAR, DATE);
 DROP PROCEDURE IF EXISTS sp_reactivar_donante(VARCHAR, DATE, VARCHAR);
 
--- Tablas en orden de dependencias (primero las que tienen FK)
+-- Eliminación de tablas
 DROP TABLE IF EXISTS MOVIMIENTO_CONTABLE CASCADE;
 DROP TABLE IF EXISTS auditoria_movimientos CASCADE;
 DROP TABLE IF EXISTS DATOS_FISCALES_PROVEEDOR CASCADE;
@@ -53,10 +27,7 @@ DROP TABLE IF EXISTS PROVEEDOR CASCADE;
 DROP TABLE IF EXISTS CUENTA_CONTABLE CASCADE;
 DROP TABLE IF EXISTS DONANTE CASCADE;
 
--- ============================================
--- PASO 3: CREAR TABLA DONANTE
--- ============================================
-
+-- Tabla DONANTE
 CREATE TABLE DONANTE (
     ID_Donante VARCHAR(20) PRIMARY KEY,
     Nombre VARCHAR(200) NOT NULL,
@@ -70,18 +41,11 @@ CREATE INDEX idx_donante_nombre ON DONANTE(Nombre);
 CREATE INDEX idx_donante_tipo ON DONANTE(Tipo);
 CREATE INDEX idx_donante_pais ON DONANTE(Pais);
 
-COMMENT ON TABLE DONANTE IS 'Catálogo de donantes (personas, empresas o entidades estatales)';
-COMMENT ON COLUMN DONANTE.ID_Donante IS 'Código único del donante (D00108, D00109...)';
-COMMENT ON COLUMN DONANTE.Nombre IS 'Nombre completo del donante';
-COMMENT ON COLUMN DONANTE.Tipo IS 'Empresa, Estado, Persona';
-COMMENT ON COLUMN DONANTE.Email IS 'Correo electrónico';
-COMMENT ON COLUMN DONANTE.Telefono IS 'Número de teléfono';
-COMMENT ON COLUMN DONANTE.Pais IS 'País de residencia';
+COMMENT ON TABLE DONANTE IS 'Catálogo de donantes de la organización';
+COMMENT ON COLUMN DONANTE.ID_Donante IS 'Código manual de negocio (ej: D00108, D00109)';
+COMMENT ON COLUMN DONANTE.Tipo IS 'Categoría: Empresa, Estado, Persona';
 
--- ============================================
--- PASO 4: CREAR TABLA ESTADO_DONANTE
--- ============================================
-
+-- Tabla ESTADO_DONANTE
 CREATE TABLE ESTADO_DONANTE (
     ID_Estado SERIAL PRIMARY KEY,
     ID_Donante VARCHAR(20) NOT NULL,
@@ -101,19 +65,13 @@ CREATE INDEX idx_estado_donante_actual ON ESTADO_DONANTE(ID_Donante, Es_Actual);
 CREATE INDEX idx_estado_fecha_desde ON ESTADO_DONANTE(Fecha_Desde);
 CREATE INDEX idx_estado_activo ON ESTADO_DONANTE(Activo);
 
-COMMENT ON TABLE ESTADO_DONANTE IS 'Historial de estados del donante (activo/inactivo, fechas, frecuencia)';
-COMMENT ON COLUMN ESTADO_DONANTE.ID_Estado IS 'ID único de cada cambio de estado';
-COMMENT ON COLUMN ESTADO_DONANTE.ID_Donante IS 'Referencia al donante';
-COMMENT ON COLUMN ESTADO_DONANTE.Fecha_Desde IS 'Inicio del período de este estado';
-COMMENT ON COLUMN ESTADO_DONANTE.Fecha_Alta IS 'Fin del período (NULL si es estado actual)';
-COMMENT ON COLUMN ESTADO_DONANTE.Activo IS 'TRUE = activo en ese período, FALSE = inactivo';
-COMMENT ON COLUMN ESTADO_DONANTE.Frecuencia IS 'Mensual, Bimestral, Trimestral, Anual';
-COMMENT ON COLUMN ESTADO_DONANTE.Es_Actual IS 'TRUE = estado vigente HOY, FALSE = histórico';
+COMMENT ON TABLE ESTADO_DONANTE IS 'Historial de estados y recurrencia de los donantes';
+COMMENT ON COLUMN ESTADO_DONANTE.Fecha_Desde IS 'Inicio de vigencia de este estado';
+COMMENT ON COLUMN ESTADO_DONANTE.Fecha_Alta IS 'Fin de vigencia del estado (NULL si sigue activo hoy)';
+COMMENT ON COLUMN ESTADO_DONANTE.Frecuencia IS 'Periodicidad de la donación (Mensual, Anual, etc.)';
+COMMENT ON COLUMN ESTADO_DONANTE.Es_Actual IS 'Indica si es el estado vigente actual (solo uno activo a la vez)';
 
--- ============================================
--- PASO 5: CREAR TABLA DATOS_FISCALES_DONANTE
--- ============================================
-
+-- Tabla DATOS_FISCALES_DONANTE
 CREATE TABLE DATOS_FISCALES_DONANTE (
     ID_Donante VARCHAR(20) PRIMARY KEY,
     Razon_Social VARCHAR(200),
@@ -125,16 +83,12 @@ CREATE TABLE DATOS_FISCALES_DONANTE (
 CREATE INDEX idx_fiscal_cuit ON DATOS_FISCALES_DONANTE(CUIT);
 CREATE INDEX idx_fiscal_tipo_contribuyente ON DATOS_FISCALES_DONANTE(Tipo_Contribuyente);
 
-COMMENT ON TABLE DATOS_FISCALES_DONANTE IS 'Información fiscal y tributaria de donantes (para facturación)';
-COMMENT ON COLUMN DATOS_FISCALES_DONANTE.ID_Donante IS 'PK y FK - Referencia al donante';
-COMMENT ON COLUMN DATOS_FISCALES_DONANTE.Razon_Social IS 'Denominación legal de la empresa';
-COMMENT ON COLUMN DATOS_FISCALES_DONANTE.Tipo_Contribuyente IS 'Monotributista, Responsable Inscripto, Exento';
-COMMENT ON COLUMN DATOS_FISCALES_DONANTE.CUIT IS 'CUIT o CUIL';
+COMMENT ON TABLE DATOS_FISCALES_DONANTE IS 'Información fiscal de donantes que requieren facturación/recibo formal';
+COMMENT ON COLUMN DATOS_FISCALES_DONANTE.ID_Donante IS 'PK y FK a DONANTE (Relación 1:1)';
+COMMENT ON COLUMN DATOS_FISCALES_DONANTE.Tipo_Contribuyente IS 'Categoría fiscal (Monotributista, Responsable Inscripto, Exento)';
+COMMENT ON COLUMN DATOS_FISCALES_DONANTE.CUIT IS 'CUIT o CUIL del donante';
 
--- ============================================
--- PASO 6: CREAR TABLA PROVEEDOR
--- ============================================
-
+-- Tabla PROVEEDOR
 CREATE TABLE PROVEEDOR (
     ID_Proveedor VARCHAR(20) PRIMARY KEY,
     Nombre_Proveedor VARCHAR(200) NOT NULL,
@@ -150,20 +104,11 @@ CREATE INDEX idx_proveedor_nombre ON PROVEEDOR(Nombre_Proveedor);
 CREATE INDEX idx_proveedor_categoria ON PROVEEDOR(Categoria_Proveedor);
 CREATE INDEX idx_proveedor_ciudad ON PROVEEDOR(Ciudad);
 
-COMMENT ON TABLE PROVEEDOR IS 'Catálogo de proveedores';
-COMMENT ON COLUMN PROVEEDOR.ID_Proveedor IS 'Código único del proveedor (P00001, P00002...)';
-COMMENT ON COLUMN PROVEEDOR.Nombre_Proveedor IS 'Nombre del proveedor';
-COMMENT ON COLUMN PROVEEDOR.Categoria_Proveedor IS 'Servicios, Materiales, Tecnología, etc.';
-COMMENT ON COLUMN PROVEEDOR.Contacto IS 'Persona de contacto';
-COMMENT ON COLUMN PROVEEDOR.Email IS 'Correo electrónico';
-COMMENT ON COLUMN PROVEEDOR.Telefono IS 'Número de teléfono';
-COMMENT ON COLUMN PROVEEDOR.Ciudad IS 'Ciudad';
-COMMENT ON COLUMN PROVEEDOR.Pais IS 'País';
+COMMENT ON TABLE PROVEEDOR IS 'Catálogo de proveedores de la organización';
+COMMENT ON COLUMN PROVEEDOR.ID_Proveedor IS 'Código manual de negocio (ej: P00001, P00002)';
+COMMENT ON COLUMN PROVEEDOR.Categoria_Proveedor IS 'Rubro: Servicios, Materiales, Tecnología, etc.';
 
--- ============================================
--- PASO 7: CREAR TABLA DATOS_FISCALES_PROVEEDOR
--- ============================================
-
+-- Tabla DATOS_FISCALES_PROVEEDOR
 CREATE TABLE DATOS_FISCALES_PROVEEDOR (
     ID_Proveedor VARCHAR(20) PRIMARY KEY,
     Razon_Social VARCHAR(200),
@@ -175,15 +120,11 @@ CREATE TABLE DATOS_FISCALES_PROVEEDOR (
 CREATE INDEX idx_fiscal_proveedor_cuit ON DATOS_FISCALES_PROVEEDOR(CUIT);
 
 COMMENT ON TABLE DATOS_FISCALES_PROVEEDOR IS 'Información fiscal y tributaria de proveedores';
-COMMENT ON COLUMN DATOS_FISCALES_PROVEEDOR.ID_Proveedor IS 'PK y FK - Referencia al proveedor';
-COMMENT ON COLUMN DATOS_FISCALES_PROVEEDOR.Razon_Social IS 'Denominación legal';
-COMMENT ON COLUMN DATOS_FISCALES_PROVEEDOR.Tipo_Contribuyente IS 'Monotributista, Responsable Inscripto, IVA Responsable';
-COMMENT ON COLUMN DATOS_FISCALES_PROVEEDOR.CUIT IS 'CUIT o CUIL';
+COMMENT ON COLUMN DATOS_FISCALES_PROVEEDOR.ID_Proveedor IS 'PK y FK a PROVEEDOR (Relación 1:1)';
+COMMENT ON COLUMN DATOS_FISCALES_PROVEEDOR.Tipo_Contribuyente IS 'Categoría fiscal (Monotributista, Responsable Inscripto, IVA Responsable)';
+COMMENT ON COLUMN DATOS_FISCALES_PROVEEDOR.CUIT IS 'CUIT o CUIL del proveedor';
 
--- ============================================
--- PASO 8: CREAR TABLA CUENTA_CONTABLE
--- ============================================
-
+-- Tabla CUENTA_CONTABLE
 CREATE TABLE CUENTA_CONTABLE (
     Nro_cuenta VARCHAR(10) PRIMARY KEY,
     Nombre_cuenta VARCHAR(200) NOT NULL,
@@ -204,16 +145,11 @@ CREATE TABLE CUENTA_CONTABLE (
 CREATE INDEX idx_cuenta_tipo ON CUENTA_CONTABLE(Tipo_cuenta);
 CREATE INDEX idx_cuenta_nombre ON CUENTA_CONTABLE(Nombre_cuenta);
 
-COMMENT ON TABLE CUENTA_CONTABLE IS 'Plan de cuentas contable (catálogo de cuentas)';
-COMMENT ON COLUMN CUENTA_CONTABLE.Nro_cuenta IS 'Número de cuenta (401200, 501400, 503100...)';
-COMMENT ON COLUMN CUENTA_CONTABLE.Nombre_cuenta IS 'Nombre descriptivo de la cuenta';
-COMMENT ON COLUMN CUENTA_CONTABLE.Tipo_cuenta IS 'Ingresos, Gastos, Activos, Pasivos, Patrimonio, Resultados financieros netos';
-COMMENT ON COLUMN CUENTA_CONTABLE.Descripcion IS 'Detalle de qué incluye la cuenta';
+COMMENT ON TABLE CUENTA_CONTABLE IS 'Plan de cuentas del sistema contable (catálogo de cuentas)';
+COMMENT ON COLUMN CUENTA_CONTABLE.Nro_cuenta IS 'Número identificador de cuenta (ej: 401200, 501400)';
+COMMENT ON COLUMN CUENTA_CONTABLE.Tipo_cuenta IS 'Clasificación: Ingresos, Gastos, Activos, Pasivos, Patrimonio, Resultados';
 
--- ============================================
--- PASO 9: CREAR TABLA MOVIMIENTO_CONTABLE
--- ============================================
-
+-- Tabla MOVIMIENTO_CONTABLE
 CREATE TABLE MOVIMIENTO_CONTABLE (
     ID_Movimiento SERIAL PRIMARY KEY,
     Tipo_Movimiento VARCHAR(10) NOT NULL,
@@ -249,20 +185,13 @@ CREATE INDEX idx_mov_proveedor ON MOVIMIENTO_CONTABLE(ID_Proveedor);
 CREATE INDEX idx_mov_cuenta ON MOVIMIENTO_CONTABLE(Nro_cuenta);
 CREATE INDEX idx_mov_fecha_tipo ON MOVIMIENTO_CONTABLE(Fecha, Tipo_Movimiento);
 
-COMMENT ON TABLE MOVIMIENTO_CONTABLE IS 'Libro mayor unificado - Registro de todos los movimientos contables';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.ID_Movimiento IS 'ID único de cada movimiento';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.Tipo_Movimiento IS 'INGRESO (de donantes) o EGRESO (a proveedores)';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.ID_Donante IS 'FK a DONANTE (solo si es INGRESO)';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.ID_Proveedor IS 'FK a PROVEEDOR (solo si es EGRESO)';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.Nro_cuenta IS 'FK a CUENTA_CONTABLE (obligatorio)';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.Fecha IS 'Fecha del movimiento';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.Importe IS 'Monto del movimiento';
-COMMENT ON COLUMN MOVIMIENTO_CONTABLE.Concepto IS 'Descripción detallada del movimiento';
+COMMENT ON TABLE MOVIMIENTO_CONTABLE IS 'Libro mayor - Registro unificado de ingresos y egresos';
+COMMENT ON COLUMN MOVIMIENTO_CONTABLE.Tipo_Movimiento IS 'Categoría del movimiento: INGRESO o EGRESO';
+COMMENT ON COLUMN MOVIMIENTO_CONTABLE.ID_Donante IS 'Asociado al movimiento (solo si Tipo = INGRESO)';
+COMMENT ON COLUMN MOVIMIENTO_CONTABLE.ID_Proveedor IS 'Asociado al movimiento (solo si Tipo = EGRESO)';
+COMMENT ON COLUMN MOVIMIENTO_CONTABLE.Nro_cuenta IS 'Cuenta contable imputada para este movimiento';
 
--- ============================================
--- PASO 10: CREAR TABLA DE AUDITORÍA
--- ============================================
-
+-- Tabla auditoria_movimientos
 CREATE TABLE auditoria_movimientos (
     ID_Auditoria SERIAL PRIMARY KEY,
     Accion VARCHAR(10) NOT NULL,
@@ -277,29 +206,9 @@ CREATE INDEX idx_auditoria_fecha ON auditoria_movimientos(Fecha_Hora);
 CREATE INDEX idx_auditoria_accion ON auditoria_movimientos(Accion);
 CREATE INDEX idx_auditoria_usuario ON auditoria_movimientos(Usuario);
 
-COMMENT ON TABLE auditoria_movimientos IS 'Tabla de auditoría para registro de cambios en movimientos contables';
-COMMENT ON COLUMN auditoria_movimientos.ID_Auditoria IS 'ID único del registro de auditoría';
-COMMENT ON COLUMN auditoria_movimientos.Accion IS 'INSERT, UPDATE o DELETE';
-COMMENT ON COLUMN auditoria_movimientos.Usuario IS 'Usuario que realizó el cambio';
-COMMENT ON COLUMN auditoria_movimientos.Fecha_Hora IS 'Timestamp del cambio';
-COMMENT ON COLUMN auditoria_movimientos.ID_Movimiento IS 'ID del movimiento modificado';
-COMMENT ON COLUMN auditoria_movimientos.Datos_Anteriores IS 'Datos anteriores al cambio (JSON)';
-COMMENT ON COLUMN auditoria_movimientos.Datos_Nuevos IS 'Datos nuevos después del cambio (JSON)';
-
--- ============================================
--- PASO 11: COMMENT EN LA BASE DE DATOS
--- ============================================
+COMMENT ON TABLE auditoria_movimientos IS 'Historial de auditoría para el registro de cambios en el libro mayor';
+COMMENT ON COLUMN auditoria_movimientos.Accion IS 'Operación realizada: INSERT, UPDATE o DELETE';
+COMMENT ON COLUMN auditoria_movimientos.Datos_Anteriores IS 'Registro de datos en formato JSON previo a la modificación';
+COMMENT ON COLUMN auditoria_movimientos.Datos_Nuevos IS 'Registro de datos en formato JSON posterior a la modificación';
 
 COMMENT ON DATABASE ong_contabilidad IS 'Sistema Contable para ONG - Gestión de Donantes, Proveedores y Movimientos Contables';
-
--- ============================================
--- VERIFICACIÓN FINAL
--- ============================================
-
-SELECT '✅ Schema creado exitosamente' AS Mensaje;
-SELECT '7 tablas creadas:' AS Info;
-SELECT table_name 
-FROM information_schema.tables 
-WHERE table_schema = 'public' 
-AND table_type = 'BASE TABLE'
-ORDER BY table_name;

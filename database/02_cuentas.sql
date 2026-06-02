@@ -1,16 +1,4 @@
--- ============================================
--- bd_ong_01_cuentas.sql
--- Sistema Contable ONG - Plan de Cuentas Contables
--- ============================================
--- Versión: 1.0
--- Fecha: 2026-03-31
--- Descripción: Carga inicial del plan de cuentas (44 cuentas)
--- Origen: Numero_cuentas_ONG.csv
--- ============================================
-
--- ============================================
--- CARGA DE CUENTAS CONTABLES
--- ============================================
+-- Sistema Contable ONG - Carga Inicial del Plan de Cuentas
 
 INSERT INTO CUENTA_CONTABLE (Nro_Cuenta, Nombre_Cuenta, Tipo_Cuenta, Descripcion) VALUES
 -- ACTIVOS (1XX)
@@ -37,7 +25,7 @@ INSERT INTO CUENTA_CONTABLE (Nro_Cuenta, Nombre_Cuenta, Tipo_Cuenta, Descripcion
 -- GASTOS (5XX)
 ('501100', 'Sueldos Empleados', 'Gastos', 'Hacen al sueldo: Sueldo bruto, SAC, cargas sociales patronales, horas extras, sindicatos, seguros, vacaciones, etc'),
 ('501200', 'Honorarios Programas Sociales', 'Gastos', 'Trabajadores sociales, medicos, nutricionistas, enfermeria, pedagogicos, tutores, coordinacion, limpieza y cocina, apoyo escolar, etc'),
-('501300', 'Honorarios Generales', 'Gastos', 'Contables, Administrativos, Legales, Escribania, Auditoria, Liquidacion Sueldos, RRHH, desarrollo fondos, voluntarios, etc'),
+('501300', 'Honorarios Generales', 'Gastos', 'Contables, Administrativos, Legales, Escribania, Auditoria, Liquidacion Sueldos, RRHH, desarrollo fondos, voluntario, etc'),
 ('501400', 'Honorarios Asesoria General', 'Gastos', 'Gestion, Comunicacion Institucional, Voluntariado, Desarrollo de Fondos'),
 ('502100', 'Servicios Protagonistas', 'Gastos', 'Translados, lavado, cuidadores nocturnos, servicios sepelios, actividades recreativas, regalos, etc'),
 ('503100', 'Alimentacion', 'Gastos', 'Comida protagonistas, bolsones comida, leche, suplemento nutricional, etc'),
@@ -66,11 +54,3 @@ INSERT INTO CUENTA_CONTABLE (Nro_Cuenta, Nombre_Cuenta, Tipo_Cuenta, Descripcion
 ('601005', 'Diferencia de Cambio', 'Resultados financieros netos', 'Diferencia de Cambio'),
 ('601007', 'Resultado por Tenencia', 'Resultados financieros netos', 'Tenencia de bienes o valores cuotasparte en fondos inversion'),
 ('601008', 'Resultado por Compraventa de Bonos', 'Resultados financieros netos', 'Compraventa Acciones, Bonos y otros Titulos Valores');
-
--- ============================================
--- VERIFICACIÓN
--- ============================================
-
-SELECT '✅ 44 cuentas cargadas' AS Mensaje;
-SELECT COUNT(*) AS Total_Cuentas FROM CUENTA_CONTABLE;
-SELECT Tipo_Cuenta, COUNT(*) AS Cantidad FROM CUENTA_CONTABLE GROUP BY Tipo_Cuenta ORDER BY Tipo_Cuenta;

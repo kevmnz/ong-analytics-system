@@ -1,16 +1,6 @@
--- ============================================
--- bd_ong_05_vistas.sql
--- Sistema Contable ONG - Vistas Útiles
--- ============================================
--- Versión: 2.0
--- Fecha: 2026-04-06
--- Descripción: Vistas predefinidas para consultas comunes
--- ============================================
+-- Sistema Contable ONG - Vistas Analíticas
 
--- ============================================
--- VISTA 1: Estado Actual de Donantes
--- ============================================
-
+-- Vista 1: Estado Actual de Donantes
 CREATE OR REPLACE VIEW v_donantes_estado_actual AS
 SELECT 
     d.ID_Donante,
@@ -30,10 +20,7 @@ LEFT JOIN ESTADO_DONANTE ed
     ON d.ID_Donante = ed.ID_Donante 
     AND ed.Es_Actual = TRUE;
 
--- ============================================
--- VISTA 2: Balance General
--- ============================================
-
+-- Vista 2: Balance General
 CREATE OR REPLACE VIEW v_balance_general AS
 SELECT 
     COALESCE(Tipo_Movimiento, 'TOTAL') AS Tipo_Movimiento,
@@ -48,10 +35,7 @@ ORDER BY
     CASE WHEN Tipo_Movimiento IS NULL THEN 2 ELSE 1 END,
     Tipo_Movimiento;
 
--- ============================================
--- VISTA 3: Resumen de Donantes
--- ============================================
-
+-- Vista 3: Resumen de Donantes
 CREATE OR REPLACE VIEW v_resumen_donantes AS
 SELECT 
     d.ID_Donante,
@@ -79,10 +63,7 @@ LEFT JOIN MOVIMIENTO_CONTABLE m
 GROUP BY d.ID_Donante, d.Nombre, d.Tipo, d.Pais, ed.Activo
 ORDER BY Total_Donado DESC;
 
--- ============================================
--- VISTA 4: Movimientos Completos
--- ============================================
-
+-- Vista 4: Movimientos Completos
 CREATE OR REPLACE VIEW v_movimientos_completos AS
 SELECT 
     m.ID_Movimiento,
@@ -110,10 +91,7 @@ JOIN CUENTA_CONTABLE c
     ON m.Nro_cuenta = c.Nro_cuenta
 ORDER BY m.Fecha DESC;
 
--- ============================================
--- VISTA 5: Top Donantes por Importe
--- ============================================
-
+-- Vista 5: Top Donantes por Importe Donado
 CREATE OR REPLACE VIEW v_top_donantes AS
 SELECT 
     d.ID_Donante,
@@ -133,10 +111,7 @@ GROUP BY d.ID_Donante, d.Nombre, d.Tipo, d.Pais
 ORDER BY Total_Donado DESC
 LIMIT 20;
 
--- ============================================
--- VISTA 6: Top Proveedores por Gasto
--- ============================================
-
+-- Vista 6: Top Proveedores por Importe Facturado
 CREATE OR REPLACE VIEW v_top_proveedores AS
 SELECT 
     p.ID_Proveedor,
@@ -157,10 +132,7 @@ GROUP BY p.ID_Proveedor, p.Nombre_Proveedor, p.Categoria_Proveedor, p.Ciudad, p.
 ORDER BY Total_Gastado DESC
 LIMIT 20;
 
--- ============================================
--- VISTA 7: Resumen por Cuenta Contable
--- ============================================
-
+-- Vista 7: Resumen Financiero por Cuenta Contable
 CREATE OR REPLACE VIEW v_resumen_cuentas AS
 SELECT 
     c.Nro_cuenta,
@@ -175,10 +147,7 @@ LEFT JOIN MOVIMIENTO_CONTABLE m
 GROUP BY c.Nro_cuenta, c.Nombre_cuenta, c.Tipo_cuenta
 ORDER BY c.Tipo_cuenta, c.Nro_cuenta;
 
--- ============================================
--- VISTA 8: Movimientos por Mes
--- ============================================
-
+-- Vista 8: Historial de Movimientos por Mes
 CREATE OR REPLACE VIEW v_movimientos_mensuales AS
 SELECT 
     DATE_TRUNC('month', m.Fecha) AS Mes,
@@ -189,13 +158,3 @@ SELECT
 FROM MOVIMIENTO_CONTABLE m
 GROUP BY DATE_TRUNC('month', m.Fecha), m.Tipo_Movimiento
 ORDER BY Mes DESC, m.Tipo_Movimiento;
-
--- ============================================
--- VERIFICACIÓN
--- ============================================
-
-SELECT '✅ 8 vistas creadas' AS Mensaje;
-SELECT table_name 
-FROM information_schema.views 
-WHERE table_schema = 'public'
-ORDER BY table_name;
