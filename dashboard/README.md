@@ -116,7 +116,6 @@ El dashboard sigue una estructura **top-down** (de lo general a lo particular), 
 | Conexión a Google Sheets | Datos siempre actualizados sin redeploy |
 | Looker Studio | Gratuito, colaborativo, se integra con el ecosistema Google |
 | Jerarquía visual (KPIs → tendencias → detalle) | Sigue el patrón de lectura Z del ojo humano |
-| Colores consistentes | Verde para ingresos, rojo para egresos (convención contable universal) |
 | Sin clutter | Cada gráfico responde una pregunta específica, nada decorativo |
 
 ---
