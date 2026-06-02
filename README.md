@@ -64,8 +64,80 @@ El dashboard funcionaba, pero los datos vivían en Google Sheets. Por iniciativa
 
 ## Diagrama ER
 
-![Diagrama Entidad-Relación](docs/DIAGRAMA%20ER.ONG.drawio.svg)
+```mermaid
+erDiagram
+    DONANTE {
+        varchar ID_Donante PK
+        varchar Nombre
+        varchar Tipo
+        varchar Email
+        varchar Telefono
+        varchar Pais
+    }
+    ESTADO_DONANTE {
+        serial ID_Estado PK
+        varchar ID_Donante FK
+        date Fecha_Desde
+        date Fecha_Alta
+        boolean Activo
+        varchar Frecuencia
+        boolean Es_Actual
+    }
+    DATOS_FISCALES_DONANTE {
+        varchar ID_Donante PK "FK"
+        varchar Razon_Social
+        varchar Tipo_Contribuyente
+        varchar CUIT
+    }
+    PROVEEDOR {
+        varchar ID_Proveedor PK
+        varchar Nombre_Proveedor
+        varchar Categoria_Proveedor
+        varchar Contacto
+        varchar Email
+        varchar Telefono
+        varchar Ciudad
+        varchar Pais
+    }
+    DATOS_FISCALES_PROVEEDOR {
+        varchar ID_Proveedor PK "FK"
+        varchar Razon_Social
+        varchar Tipo_Contribuyente
+        varchar CUIT
+    }
+    CUENTA_CONTABLE {
+        varchar Nro_cuenta PK
+        varchar Nombre_cuenta
+        varchar Tipo_cuenta
+        text Descripcion
+    }
+    MOVIMIENTO_CONTABLE {
+        serial ID_Movimiento PK
+        varchar Tipo_Movimiento
+        varchar ID_Donante FK
+        varchar ID_Proveedor FK
+        varchar Nro_cuenta FK
+        date Fecha
+        decimal Importe
+        text Concepto
+    }
+    AUDITORIA_MOVIMIENTOS {
+        serial ID_Auditoria PK
+        varchar Accion
+        varchar Usuario
+        timestamp Fecha_Hora
+        int ID_Movimiento
+        jsonb Datos_Anteriores
+        jsonb Datos_Nuevos
+    }
 
+    DONANTE ||--|| DATOS_FISCALES_DONANTE : "tiene"
+    DONANTE ||--o{ ESTADO_DONANTE : "registra"
+    DONANTE ||--o{ MOVIMIENTO_CONTABLE : "realiza"
+    PROVEEDOR ||--|| DATOS_FISCALES_PROVEEDOR : "tiene"
+    PROVEEDOR ||--o{ MOVIMIENTO_CONTABLE : "recibe"
+    CUENTA_CONTABLE ||--o{ MOVIMIENTO_CONTABLE : "clasifica"
+```
 
 **Features**:
 - 7 tablas normalizadas con foreign keys y constraints.
@@ -115,7 +187,7 @@ ONG/
 ├── dashboard/                   # Visualización
 │   └── README.md               # Análisis de visualizaciones
 ├── docs/                        # Documentación
-│   └── DIAGRAMA ER.ONG.drawio.svg
+│   ├── ER.md                 # Diagrama ER en Mermaid
 └── procesados/                  # CSVs normalizados
 ```
 
@@ -127,7 +199,7 @@ ONG/
 |------------|------------|
 | Base de datos | PostgreSQL 18 |
 | ETL | Python 3.11+ / Pandas |
-| Diagramas | draw.io |
+| Diagramas | Mermaid |
 
 ---
 
